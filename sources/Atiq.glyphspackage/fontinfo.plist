@@ -122,7 +122,7 @@ SPAC = {
 }
 );
 date = "2021-04-25 20:10:22 +0000";
-familyName = Qasab;
+familyName = "Atiq";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -1000,7 +1000,7 @@ code = "lookup spacing {
 @hah.medi	= [$[name MATCHES \"hah-ar.medi.*\"]];
 @seen.medi	= [$[name MATCHES \"seen-ar.medi.*\"]];
 
-include(Qasab-overhang.fea)
+include(Atiq-overhang.fea)
 ";
 tag = kern;
 },
@@ -1289,7 +1289,7 @@ name = Regular;
 properties = (
 {
 key = variablePostscriptFontName;
-value = "Qasab-Regular";
+value = "Atiq-Regular";
 }
 );
 },
@@ -1302,7 +1302,7 @@ name = Compact;
 properties = (
 {
 key = variablePostscriptFontName;
-value = "Qasab-Compact";
+value = "Atiq-Compact";
 }
 );
 }
@@ -1701,11 +1701,11 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright 2025 The Qasab Project Authors (github.com/aliftype/qasab)";
+value = "Copyright 2025 The Atiq Project Authors (github.com/aliftype/atiq)";
 },
 {
 language = ARA;
-value = "حقوق النسخ ٢٠٢٥ لمؤلفي مشروع قصب (github.com/aliftype/qasab)";
+value = "حقوق النسخ ٢٠٢٥ لمؤلفي مشروع عتيق (github.com/aliftype/atiq)";
 }
 );
 },
@@ -1714,11 +1714,11 @@ key = descriptions;
 values = (
 {
 language = ENG;
-value = "Qasab (قصب) is a manuscript Kufic typeface";
+value = "Atiq (عتيق) is a manuscript Kufic typeface";
 },
 {
 language = ARA;
-value = "قصب هو خط كوفي مصحفي";
+value = "عتيق هو خط كوفي مصحفي";
 }
 );
 },

@@ -1,6 +1,6 @@
-Qasab
+Atiq
 =====
 
 ![Sample](FontSample.svg)
 
-_Qasab_ (قصب) is a manuscript Kufic typeface.
+_Atiq_ (عتيق) is a manuscript Kufic typeface.
