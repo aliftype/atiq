@@ -1269,7 +1269,7 @@ pos = -500;
 );
 name = Regular;
 userData = {
-GSCornerRadius = -10;
+GSCornerRadius = -5;
 GSOffsetCapStyle = 2;
 GSOffsetHorizontal = 4;
 GSOffsetKeepCompatible = 1;
