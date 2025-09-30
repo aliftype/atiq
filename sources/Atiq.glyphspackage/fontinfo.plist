@@ -61,16 +61,6 @@ value = 1;
 name = "Color Palettes";
 value = (
 (
-(144,41,0,255),
-(212,175,55,255),
-(71,28,1,255),
-(144,41,0,230),
-(154,115,18,255),
-(0,0),
-(212,175,55,255),
-(154,115,18,255)
-),
-(
 (226,46,0,255),
 (212,175,55,255),
 (128,32,1,255),
@@ -79,6 +69,16 @@ value = (
 (255,255,230,255),
 (166,115,0,255),
 (255,226,161,255)
+),
+(
+(144,41,0,255),
+(212,175,55,255),
+(71,28,1,255),
+(144,41,0,230),
+(154,115,18,255),
+(0,0),
+(212,175,55,255),
+(154,115,18,255)
 )
 );
 },
@@ -1316,6 +1316,7 @@ m01 = {
 "meem-ar.medi" = -11;
 "meem-ar.medi.round2" = -6;
 "meem-ar.medi.round3" = -6;
+"qafDotless-ar.fina" = -2;
 };
 "@MMK_R_ain.init" = {
 "@MMK_L_beh" = 50;
@@ -1418,8 +1419,15 @@ _c.seen.meem = -10;
 _c.ain.meem = {
 "meem-ar.medi.round2" = 8;
 "noonghunna-ar" = -8;
-"qafDotless-ar.fina" = 8;
 "waw-ar.fina.round" = -7;
+};
+_c.feh.init.beh = {
+"behDotless-ar.fina" = -7;
+};
+_c.feh.init.dal = {
+"meem-ar.fina" = 24;
+"meem-ar.medi" = 11;
+"qafDotless-ar.fina" = 21;
 };
 _c.feh.medi.meem = {
 "@MMK_L_yeh" = -36;
@@ -1550,11 +1558,10 @@ _c.ain.meem = 30;
 "lam_alef-ar.fina" = -30;
 };
 "fehDotless-ar.init.hah" = {
-"hah-ar.fina" = 11;
 "hah-ar.medi.hah" = 11;
 };
 "fehDotless-ar.init.yeh" = {
-"reh-ar.fina" = 11;
+"reh-ar.fina" = 19;
 };
 "fehDotless-ar.medi" = {
 "@MMK_L_beh" = -4;

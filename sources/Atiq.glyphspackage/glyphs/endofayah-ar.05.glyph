@@ -83,7 +83,7 @@ width = 400;
 {
 associatedMasterId = m01;
 attr = {
-colorPalette = 7;
+colorPalette = 4;
 };
 layerId = "3C156617-8D36-4104-AFC9-5789B45D6171";
 metricRight = "=60";
@@ -124,7 +124,7 @@ width = 400;
 {
 associatedMasterId = m01;
 attr = {
-colorPalette = 6;
+colorPalette = 1;
 };
 backgroundImage = {
 alpha = 80;

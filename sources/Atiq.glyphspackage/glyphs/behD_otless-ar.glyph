@@ -88,7 +88,7 @@ width = 1331;
 anchors = (
 {
 name = bottom;
-pos = (5972,34);
+pos = (5991,13);
 },
 {
 name = damma;
@@ -171,7 +171,7 @@ width = 6000;
 anchors = (
 {
 name = bottom;
-pos = (513,34);
+pos = (532,13);
 },
 {
 name = damma;
