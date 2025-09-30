@@ -16,11 +16,11 @@ pos = (64,-8);
 ref = "dotabove-ar";
 },
 {
-pos = (0,44);
+pos = (-12,35);
 ref = "dotabove-ar";
 },
 {
-pos = (32,18);
+pos = (26,13);
 ref = "dotabove-ar";
 }
 );
