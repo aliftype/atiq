@@ -12,11 +12,12 @@ pos = (77,34);
 layerId = m01;
 shapes = (
 {
+pos = (10,10);
 ref = "twodotsverticalabove-ar.vert.beh";
 },
 {
-angle = -3.96252;
-pos = (-1,143);
+angle = -8.48948;
+pos = (8,145);
 ref = "dotabove-ar.beh";
 }
 );

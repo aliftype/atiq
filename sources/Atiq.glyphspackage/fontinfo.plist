@@ -751,7 +751,9 @@ lookup rlig_sheen_dots {
 lookup rlig_beh_dots {
 	lookupflag UseMarkFilteringSet @beh1_dots;
 
-	sub [behDotless-ar.medi
+	sub [behDotless-ar
+		 behDotless-ar.fina
+		 behDotless-ar.medi
 		 behDotless-ar.medi.high
 		 behDotless-ar.medi.round
 		 behDotless-ar.init.high
@@ -1027,7 +1029,7 @@ lookup dots_below {
 
 	pos	[hah-ar.init hah-ar.medi]
 		 _c.hah.beh
-		 @dotsbelow' <50 -20 0 0>
+		 @dotsbelow' <250 -20 0 0>
 		[lam-ar.medi.hah1 lam-ar.medi.hah2 behDotless-ar.medi]
 		[hah-ar.medi hah-ar.medi.hah hah-ar.fina]
 	;
@@ -1041,7 +1043,7 @@ lookup dots_below {
 	;
 
 	pos	 @behmedi
-		 @dotsbelow' <395 -20 0 0>
+		 @dotsbelow' <700 -20 0 0>
 		[hah-ar.medi hah-ar.medi.hah hah-ar.fina]
 	;
 

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (134,30);
+pos = (140,42);
 }
 );
 layerId = m01;
@@ -16,7 +16,7 @@ pos = (30,0);
 ref = "twodotsverticalabove-ar.beh";
 },
 {
-pos = (0,46);
+pos = (-19,39);
 ref = "dotabove-ar.beh";
 }
 );

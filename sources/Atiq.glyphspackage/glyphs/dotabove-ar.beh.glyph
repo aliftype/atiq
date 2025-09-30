@@ -6,14 +6,14 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (73,38);
+pos = (80,50);
 }
 );
 layerId = m01;
 shapes = (
 {
-angle = 9;
-pos = (3,-9);
+angle = -2.35293;
+pos = (-1,-6);
 ref = "dotabove-ar";
 }
 );

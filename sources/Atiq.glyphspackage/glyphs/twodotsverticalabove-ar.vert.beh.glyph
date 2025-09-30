@@ -13,11 +13,11 @@ layerId = m01;
 shapes = (
 {
 angle = -3.96252;
-pos = (-1,73);
+pos = (9,73);
 ref = "dotabove-ar.beh";
 },
 {
-pos = (0,-6);
+pos = (10,4);
 ref = "dotabove-ar.beh";
 }
 );
