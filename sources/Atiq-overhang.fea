@@ -4,7 +4,7 @@ lookup overhang {
   lookupflag IgnoreMarks;
 	pos @beh.init' 720 hah-ar.fina.alt';
 	pos seen-ar.init' 400 hah-ar.fina';
-	pos fehDotless-ar.init.hah' 420 hah-ar.fina';
+	pos fehDotless-ar.init.hah' 410 hah-ar.fina';
 	pos meem-ar.init' 370 hah-ar.fina';
 	pos heh-ar.init' 400 hah-ar.fina';
 	pos @beh.init' 520 _c.seen.beh' @beh.medi' hah-ar.fina';
@@ -52,7 +52,7 @@ lookup overhang {
 	pos @beh.init' 140 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' hah-ar.fina';
 	pos @beh.init' 670 @hah.medi';
 	pos seen-ar.init' 400 @hah.medi';
-	pos fehDotless-ar.init.hah' 420 @hah.medi';
+	pos fehDotless-ar.init.hah' 410 @hah.medi';
 	pos meem-ar.init' 370 @hah.medi';
 	pos heh-ar.init' 400 @hah.medi';
 	pos @beh.init' 520 _c.seen.beh' @beh.medi' @hah.medi';

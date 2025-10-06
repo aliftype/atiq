@@ -15,7 +15,7 @@ name = exit;
 },
 {
 name = fatha;
-pos = (130,440);
+pos = (193,475);
 },
 {
 name = kasra;
@@ -23,7 +23,7 @@ pos = (360,-84);
 },
 {
 name = top;
-pos = (175,387);
+pos = (105,307);
 }
 );
 layerId = m01;

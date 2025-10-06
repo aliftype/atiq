@@ -12,7 +12,7 @@ pos = (-62,8);
 },
 {
 name = fatha;
-pos = (428,524);
+pos = (471,528);
 },
 {
 name = kasra;
@@ -20,7 +20,7 @@ pos = (1005,-72);
 },
 {
 name = top;
-pos = (400,391);
+pos = (384,358);
 }
 );
 layerId = m01;
@@ -117,7 +117,7 @@ pos = (-62,8);
 },
 {
 name = fatha;
-pos = (848,524);
+pos = (891,528);
 },
 {
 name = kasra;
@@ -125,7 +125,7 @@ pos = (1425,-72);
 },
 {
 name = top;
-pos = (820,391);
+pos = (804,358);
 }
 );
 associatedMasterId = m01;
@@ -230,7 +230,7 @@ pos = (-62,8);
 },
 {
 name = fatha;
-pos = (848,524);
+pos = (891,528);
 },
 {
 name = kasra;
@@ -238,7 +238,7 @@ pos = (1425,-72);
 },
 {
 name = top;
-pos = (820,391);
+pos = (804,358);
 }
 );
 associatedMasterId = m01;

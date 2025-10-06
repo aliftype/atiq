@@ -1279,6 +1279,7 @@ GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
+visible = 1;
 }
 );
 instances = (
@@ -1417,7 +1418,6 @@ _c.seen.meem = -10;
 "alef-ar" = -15;
 };
 _c.ain.meem = {
-"meem-ar.medi.round2" = 8;
 "noonghunna-ar" = -8;
 "waw-ar.fina.round" = -7;
 };
