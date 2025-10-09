@@ -1,5 +1,5 @@
 {
-.appVersion = "3430";
+.appVersion = "3434";
 .formatVersion = 3;
 axes = (
 {
@@ -1155,28 +1155,12 @@ axesValues = (
 );
 customParameters = (
 {
-name = typoAscender;
-value = 805;
-},
-{
-name = typoDescender;
-value = -115;
-},
-{
-name = hheaAscender;
-value = 805;
-},
-{
-name = hheaDescender;
-value = -115;
-},
-{
 name = winAscent;
-value = 900;
+value = 950;
 },
 {
 name = winDescent;
-value = 500;
+value = 650;
 },
 {
 name = underlinePosition;
@@ -1255,7 +1239,7 @@ pos = 920;
 },
 {
 over = -10;
-pos = 690;
+pos = 920;
 },
 {
 over = -10;
@@ -1266,7 +1250,7 @@ over = -10;
 },
 {
 over = -10;
-pos = -500;
+pos = -260;
 }
 );
 name = Regular;
@@ -1692,6 +1676,7 @@ metrics = (
 type = ascender;
 },
 {
+filter = "NOT (script == \"arabic\")";
 type = "cap height";
 },
 {
