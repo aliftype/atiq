@@ -1302,6 +1302,7 @@ m01 = {
 "meem-ar.medi.round2" = -6;
 "meem-ar.medi.round3" = -6;
 "qafDotless-ar.fina" = -2;
+"waw-ar.fina.round" = -27;
 };
 "@MMK_R_ain.init" = {
 "@MMK_L_beh" = 50;
@@ -1403,7 +1404,6 @@ _c.seen.meem = -10;
 };
 _c.ain.meem = {
 "noonghunna-ar" = -8;
-"waw-ar.fina.round" = -7;
 };
 _c.feh.init.beh = {
 "behDotless-ar.fina" = -7;
@@ -1676,7 +1676,7 @@ metrics = (
 type = ascender;
 },
 {
-filter = "NOT (script == \"arabic\")";
+filter = "NOT script == \"arabic\"";
 type = "cap height";
 },
 {
