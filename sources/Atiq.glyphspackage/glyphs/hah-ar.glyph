@@ -138,7 +138,7 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 0,
-20
+80
 );
 };
 backgroundImage = {
