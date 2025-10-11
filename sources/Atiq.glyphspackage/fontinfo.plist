@@ -326,6 +326,10 @@ lookup ccmp_ayah_cleanup {
 	;
 } ccmp_ayah_cleanup;
 
+lookup salt_ayah {
+	sub endofayah-ar.05 by endofayah-ar.10 ayah.005;
+} salt_ayah;
+
 lookup ccmp_kashida {
 	sub kashida-ar alefabove-ar by alefabove-ar;
 } ccmp_kashida;
@@ -416,7 +420,7 @@ lookup fina {
 name = basic;
 },
 {
-code = "lookup rlig_vertical_dots {
+code = "lookup rclt_vertical_dots {
 	lookupflag UseMarkFilteringSet [twodotsverticalabove-ar threedotsupabove-ar];
 
 	sub [behDotless-ar.init behDotless-ar.medi]
@@ -425,12 +429,16 @@ code = "lookup rlig_vertical_dots {
 		 heh-ar.fina heh-ar.medi heh-ar.medi.round]
 	by	[twodotsverticalabove-ar.vert threedotsupabove-ar.vert]
 	;
-} rlig_vertical_dots;
+} rclt_vertical_dots;
 ";
 name = marks;
 },
 {
-code = "@medi.l0 = [$[name LIKE \"*.medi\" && ! name ENDSWITH \".l1\" && ! name BEGINSWITH \"_\" && ! name MATCHES \"^(lam|tah|alefabove)-ar.*\"] kashida-ar];
+code = "lookup salt_hah {
+	sub hah-ar.fina					from [hah-ar.fina.salt];
+} salt_hah;
+
+@medi.l0 = [$[name LIKE \"*.medi\" && ! name ENDSWITH \".l1\" && ! name BEGINSWITH \"_\" && ! name MATCHES \"^(lam|tah|alefabove)-ar.*\"] kashida-ar];
 @medi.l1 = [$[name LIKE \"*.medi.l1\"] kashida-ar.l1];
 @medi.l2 = [$[name LIKE \"*.medi.l2\"] kashida-ar.l2];
 @medi.l0.full = [@medi.l0 lam-ar.medi tah-ar.medi];
@@ -438,24 +446,24 @@ code = "@medi.l0 = [$[name LIKE \"*.medi\" && ! name ENDSWITH \".l1\" && ! name 
 @medi.l2.full = [@medi.l2 lam-ar.medi.hah2 tah-ar.medi.hah2];
 
 # First substitute all glyphs before hah with an alternate ones
-lookup rlig_hah_medi_l1 {
+lookup rclt_hah_medi_l1 {
 	lookupflag IgnoreMarks;
 
 	rsub [@medi.l0.full lam-ar.init tah-ar.init]'
 		 [hah-ar.medi hah-ar.fina @medi.l1.full]
 	by	 [@medi.l1.full lam-ar.init.hah1 tah-ar.init.hah1]
 	;
-} rlig_hah_medi_l1;
+} rclt_hah_medi_l1;
 
 # Then substitute all glyphs before another hah with an alternate ones
-lookup rlig_hah_medi_l2 {
+lookup rclt_hah_medi_l2 {
 	lookupflag IgnoreMarks;
 
 	rsub [@medi.l1.full lam-ar.init.hah1 tah-ar.init.hah1]'
 		 [hah-ar.medi.l1 @medi.l2.full]
 	by	 [@medi.l2.full lam-ar.init.hah2 tah-ar.init.hah2]
 	;
-} rlig_hah_medi_l2;
+} rclt_hah_medi_l2;
 
 # Substitute signle initial glyphs before hah with alternate ones
 lookup above_hah {
@@ -472,7 +480,7 @@ lookup above_hah1 {
 	sub behDotless-ar.init	by behDotless-ar.init.hah;
 } above_hah1;
 
-lookup rlig_hah_init {
+lookup rclt_hah_init {
 	lookupflag IgnoreMarks;
 
 	sub	[fehDotless-ar.init ain-ar.init hah-ar.init hah-ar.medi.l1 hah-ar.medi.l2]'
@@ -487,19 +495,19 @@ lookup rlig_hah_init {
 	sub	[behDotless-ar.init lam-ar.init.hah2]' lookup above_hah1
 		[hah-ar.medi.l1 hah-ar.medi.l2]' lookup above_hah
 	;
-} rlig_hah_init;
+} rclt_hah_init;
 
 # Some of the alternates are superflous but we needed them as context, not any more.
 # Replace them back with the original glyphs.
-lookup rlig_hah_cleanup {
+lookup rclt_hah_cleanup {
 	sub @medi.l1 by @medi.l0;
 	sub @medi.l2 by @medi.l0;
-} rlig_hah_cleanup;
+} rclt_hah_cleanup;
 ";
 name = hah;
 },
 {
-code = "lookup rlig_ligatures_1 {
+code = "lookup rclt_ligatures_1 {
 	lookupflag IgnoreMarks;
 
 	sub lam-ar.init alef-ar.fina			by lam_alef-ar;
@@ -508,13 +516,13 @@ code = "lookup rlig_ligatures_1 {
 	sub fehDotless-ar.init alef-ar.fina		by fehDotless_alef-ar;
 
 	sub lam-ar.init lam-ar.medi heh-ar.fina	by lam_lam_heh-ar;
-} rlig_ligatures_1;
+} rclt_ligatures_1;
 
-lookup rlig_ligatures_2 {
+lookup rclt_ligatures_2 {
 	lookupflag UseMarkFilteringSet [@dotsbelow kasra-ar kasratan-ar];
 	sub seen-ar.init alefMaksura-ar.fina	by seen_alefMaksura-ar;
 	sub seen-ar.medi alefMaksura-ar.fina	by seen_alefMaksura-ar.fina;
-} rlig_ligatures_2;
+} rclt_ligatures_2;
 ";
 name = ligatures;
 },
@@ -529,7 +537,7 @@ lookup med_beh {
 	sub behDotless-ar.medi	by behDotless-ar.medi.med;
 } med_beh;
 
-lookup rlig_teeth_1 {
+lookup rclt_teeth_1 {
 	lookupflag IgnoreMarks;
 
 	sub	[behDotless-ar.init behDotless-ar.medi]'
@@ -540,18 +548,18 @@ lookup rlig_teeth_1 {
 	sub	[behDotless-ar.init behDotless-ar.medi]' lookup high_beh
 		[seen_alefMaksura-ar.fina]
 	;
-} rlig_teeth_1;
+} rclt_teeth_1;
 
-lookup rlig_teeth_2 {
+lookup rclt_teeth_2 {
 	lookupflag IgnoreMarks;
 
 	rsub [behDotless-ar.init behDotless-ar.medi]'
 		 [behDotless-ar.medi behDotless-ar.fina]
 	by	 [behDotless-ar.init.high behDotless-ar.medi.high]
 	;
-} rlig_teeth_2;
+} rclt_teeth_2;
 
-lookup rlig_teeth_3 {
+lookup rclt_teeth_3 {
 	lookupflag IgnoreMarks;
 
 	ignore
@@ -570,15 +578,15 @@ lookup rlig_teeth_3 {
 		[fehDotless-ar.medi fehDotless-ar.medi.alt fehDotless-ar.fina
 		 heh-ar.medi heh-ar.fina]
 	;
-} rlig_teeth_3;
+} rclt_teeth_3;
 
-lookup rlig_teeth_4 {
+lookup rclt_teeth_4 {
 	lookupflag IgnoreMarks;
 	sub	[behDotless-ar.init.high behDotless-ar.medi.high]
 		 behDotless-ar.medi.high'
 	by	 behDotless-ar.medi.med
 	;
-} rlig_teeth_4;
+} rclt_teeth_4;
 ";
 name = teeth;
 },
@@ -600,24 +608,24 @@ lookup wide_yeh {
 	sub fehDotless-ar.init	by fehDotless-ar.init.yeh;
 } wide_yeh;
 
-lookup rlig_wide_yeh {
+lookup rclt_wide_yeh {
 	lookupflag IgnoreMarks;
 
 	sub [behDotless-ar.init lam-ar.init fehDotless-ar.init]' lookup wide_yeh
 		[alefMaksura-ar.fina yehbarree-ar.fina]' lookup wide_yeh
 	;
-} rlig_wide_yeh;
+} rclt_wide_yeh;
 
 @dots = [$[name LIKE \"*dot*\" && category == \"Mark\"]];
 lookup ss01_dots {
 	sub @dots by NULL;
 } ss01_dots;
 
-lookup salt_1 {
-	sub alefMaksura-ar from [alefMaksura-ar.salt yehbarree-ar];
-	sub alefMaksura-ar.fina from [alefMaksura-ar.fina.salt yehbarree-ar.fina];
-	sub alefMaksura-ar.fina.wide from [alefMaksura-ar.fina.wide.salt yehbarree-ar.fina];
-} salt_1;
+lookup salt_yeh {
+	sub alefMaksura-ar				from [alefMaksura-ar.salt yehbarree-ar];
+	sub alefMaksura-ar.fina			from [alefMaksura-ar.fina.salt yehbarree-ar.fina];
+	sub alefMaksura-ar.fina.wide	from [alefMaksura-ar.fina.wide.salt yehbarree-ar.fina];
+} salt_yeh;
 
 @beforeyehtooth = [behDotless-ar.medi lam-ar.medi lam-ar.medi.short];
 lookup rclt_tooth_yeh {
@@ -670,7 +678,7 @@ lookup rclt_yehbarree_baseline {
 
 @aftermeem = [meem-ar.medi meem-ar.fina waw-ar.fina reh-ar.fina noonghunna-ar.fina];
 
-lookup rlig_3 {
+lookup rclt_3 {
 	lookupflag IgnoreMarks;
 
 	sub [behDotless-ar.medi lam-ar.medi lam-ar.medi.hah1 lam-ar.medi.hah2]' lookup tooth_rounded
@@ -685,9 +693,9 @@ lookup rlig_3 {
 		 @aftermeem' lookup rounded
 	;
 
-} rlig_3;
+} rclt_3;
 
-lookup rlig_4 {
+lookup rclt_4 {
 	lookupflag IgnoreMarks;
 
 	sub [lam-ar.init lam-ar.medi tah-ar.init tah-ar.medi]
@@ -697,9 +705,9 @@ lookup rlig_4 {
 	sub [meem-ar.medi.round]' lookup rounded2
 		 @aftermeem' lookup rounded;
 	;
-} rlig_4;
+} rclt_4;
 
-lookup rlig_dal_yehbarre {
+lookup rclt_dal_yehbarre {
 	lookupflag IgnoreMarks;
 
 	sub	[dal-ar dal-ar.fina]
@@ -707,7 +715,7 @@ lookup rlig_dal_yehbarre {
 	by	 yehbarree-ar.dal
 	;
 
-} rlig_dal_yehbarre;
+} rclt_dal_yehbarre;
 ";
 name = misc;
 },
@@ -731,7 +739,7 @@ lookup rclt_kasratan {
 	;
 } rclt_kasratan;
 
-lookup rlig_sheen_dots {
+lookup rclt_sheen_dots {
 	lookupflag UseMarkFilteringSet [threedotshorizontalabove-ar];
 
 	sub [seen-ar.medi seen_alefMaksura-ar.fina]
@@ -743,12 +751,12 @@ lookup rlig_sheen_dots {
 		[threedotshorizontalabove-ar]'
 	by	[threedotshorizontalabove-ar.fin]
 	;
-} rlig_sheen_dots;
+} rclt_sheen_dots;
 
 @beh1_dots = [dotabove-ar twodotsverticalabove-ar threedotsupabove-ar
 			  twodotsverticalabove-ar.vert threedotsupabove-ar.vert];
 
-lookup rlig_beh_dots {
+lookup rclt_beh_dots {
 	lookupflag UseMarkFilteringSet @beh1_dots;
 
 	sub [behDotless-ar
@@ -762,7 +770,7 @@ lookup rlig_beh_dots {
 	by	[dotabove-ar.beh twodotsverticalabove-ar.beh threedotsupabove-ar.beh
 		 twodotsverticalabove-ar.vert.beh threedotsupabove-ar.vert.beh]
 	;
-} rlig_beh_dots;
+} rclt_beh_dots;
 ";
 name = dots;
 },
@@ -934,32 +942,28 @@ code = "lookup fina;";
 tag = fina;
 },
 {
-code = "lookup rlig_hah_medi_l1;
-lookup rlig_hah_medi_l2;
-lookup rlig_hah_init;
-lookup rlig_hah_cleanup;
-lookup rlig_vertical_dots;
-lookup rlig_teeth_1;
-lookup rlig_teeth_2;
-lookup rlig_teeth_3;
-lookup rlig_teeth_4;
-lookup rlig_wide_yeh;
-lookup rlig_ligatures_1;
-lookup rlig_ligatures_2;
-lookup rlig_3;
-lookup rlig_4;
-lookup rlig_sheen_dots;
-lookup rlig_beh_dots;
-lookup rlig_dal_yehbarre;
-";
-tag = rlig;
-},
-{
-code = "lookup rclt_tooth_yeh;
+code = "lookup rclt_hah_medi_l1;
+lookup rclt_hah_medi_l2;
+lookup rclt_hah_init;
+lookup rclt_hah_cleanup;
+lookup rclt_tooth_yeh;
 lookup rclt_yehbarree_baseline;
 lookup rclt_connection;
 lookup rclt_fathatan;
 lookup rclt_kasratan;
+lookup rclt_vertical_dots;
+lookup rclt_teeth_1;
+lookup rclt_teeth_2;
+lookup rclt_teeth_3;
+lookup rclt_teeth_4;
+lookup rclt_wide_yeh;
+lookup rclt_ligatures_1;
+lookup rclt_ligatures_2;
+lookup rclt_3;
+lookup rclt_4;
+lookup rclt_sheen_dots;
+lookup rclt_beh_dots;
+lookup rclt_dal_yehbarre;
 ";
 tag = rclt;
 },
@@ -1127,9 +1131,9 @@ lookup heh_dots {
 tag = mark;
 },
 {
-code = "lookup salt_1;
-sub endofayah-ar.05 by endofayah-ar.10 ayah.005;
-";
+code = "lookup salt_hah;
+lookup salt_yeh;
+lookup salt_ayah;";
 tag = salt;
 },
 {
@@ -1338,11 +1342,10 @@ _c.hah.noon = -20;
 };
 "@MMK_R_kaf" = {
 "@MMK_L_beh" = -5;
+"@MMK_L_hah.init" = -3;
 "@MMK_L_sad" = -10;
 "@MMK_L_yeh" = -36;
 "@MMK_L_yehbarree" = -21;
-"hah-ar.fina" = -20;
-"hah-ar.medi" = -22;
 "lam_alef-ar.fina" = -40;
 "meem-ar.fina" = -12;
 "meem-ar.medi" = -5;

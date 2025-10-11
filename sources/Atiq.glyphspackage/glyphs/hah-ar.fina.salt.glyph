@@ -1,0 +1,88 @@
+{
+category = Letter;
+color = 9;
+glyphname = "hah-ar.fina.salt";
+kernRight = hah.init;
+layers = (
+{
+anchors = (
+{
+name = entry;
+pos = (537,0);
+}
+);
+backgroundImage = {
+alpha = 80;
+imagePath = "images/MS-Arabe-350-0000006.png";
+locked = 1;
+pos = (-1119,-879);
+scale = (2.4,2.4);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-115);
+ref = "hah-ar.fina";
+}
+);
+width = 1308;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (920,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+80
+);
+};
+layerId = "9CD22476-6F4A-4896-A8A4-64D8BEBC78EE";
+name = "{0, 10} 17 May 23 at 17:57";
+shapes = (
+{
+alignment = -1;
+pos = (0,-115);
+ref = "hah-ar.fina";
+}
+);
+width = 1688;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (920,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "CA451A97-2056-4DD4-A001-0B8DFF813C4B";
+name = "17 May 23 at 17:56";
+shapes = (
+{
+alignment = -1;
+pos = (0,-115);
+ref = "hah-ar.fina";
+}
+);
+width = 1688;
+}
+);
+metricLeft = "=hah-ar.fina";
+metricRight = "=hah-ar.fina";
+metricWidth = "=hah-ar.fina";
+script = arabic;
+sortName = arL0015;
+sortNameKeep = arL0015;
+}
