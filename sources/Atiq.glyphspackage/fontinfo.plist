@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -122,7 +122,7 @@ SPAC = {
 }
 );
 date = "2021-04-25 20:10:22 +0000";
-familyName = "Atiq";
+familyName = Atiq;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
