@@ -23,7 +23,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = "lam-ar";
+ref = "lam-ar.isol";
 },
 {
 closed = 1;
@@ -48,7 +48,7 @@ nodes = (
 width = 298;
 }
 );
-metricLeft = "=lam-ar";
+metricLeft = "=lam-ar.isol";
 metricRight = "=3@157";
 script = arabic;
 sortName = arL0054;

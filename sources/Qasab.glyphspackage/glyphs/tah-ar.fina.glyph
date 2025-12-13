@@ -320,7 +320,7 @@ nodes = (
 width = 378;
 }
 );
-metricLeft = "=tah-ar";
+metricLeft = "=tah-ar.isol";
 metricRight = "=-10";
 script = arabic;
 sortName = arL0032;
