@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = "seen_yeh-ar";
+glyphname = "seen_yeh-ar.isol";
 kernRight = beh.init;
 layers = (
 {

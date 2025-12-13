@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = "lam_alef-ar";
+glyphname = "lam_alef-ar.isol";
 layers = (
 {
 anchors = (

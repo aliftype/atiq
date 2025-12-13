@@ -10,7 +10,7 @@ shapes = (
 ref = "alef-ar.isol";
 },
 {
-pos = (72,547);
+pos = (63,647);
 ref = "hamzaabove-ar";
 }
 );
@@ -18,7 +18,6 @@ width = 741;
 }
 );
 script = arabic;
-sortName = arL0091;
-sortNameKeep = arL0091;
+subCategory = Base;
 unicode = 1571;
 }

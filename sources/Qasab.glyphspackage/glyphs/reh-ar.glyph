@@ -1,0 +1,19 @@
+{
+category = Placeholder;
+color = 0;
+glyphname = "reh-ar";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "reh-ar.isol";
+}
+);
+width = 490;
+}
+);
+script = arabic;
+subCategory = Base;
+unicode = 1585;
+}

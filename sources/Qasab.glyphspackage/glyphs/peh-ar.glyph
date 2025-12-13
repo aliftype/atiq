@@ -18,7 +18,6 @@ width = 1331;
 }
 );
 script = arabic;
-sortName = arL0126;
-sortNameKeep = arL0126;
+subCategory = Base;
 unicode = 1662;
 }

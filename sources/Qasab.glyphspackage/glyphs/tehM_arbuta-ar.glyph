@@ -8,13 +8,16 @@ layerId = m01;
 shapes = (
 {
 ref = "heh-ar.isol";
+},
+{
+pos = (163,464);
+ref = "twodotsverticalabove-ar";
 }
 );
 width = 354;
 }
 );
 script = arabic;
-sortName = arL0283;
-sortNameKeep = arL0283;
+subCategory = Base;
 unicode = 1577;
 }

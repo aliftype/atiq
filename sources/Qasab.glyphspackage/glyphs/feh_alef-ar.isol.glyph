@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = "feh_alef-ar";
+glyphname = "feh_alef-ar.isol";
 kernRight = feh.init;
 layers = (
 {

@@ -4,54 +4,74 @@ configuration:
     direction: rtl
 
   forbidden_glyphs:
+  - alef-ar
   - alefHamzaabove-ar
   - alefHamzabelow-ar
   - alefMadda-ar
   - alefWasla-ar
+  - behDotless-ar
   - beh-ar
+  - peh-ar
   - teh-ar
   - theh-ar
-  - peh-ar
   - jeem-ar
-  - khah-ar
   - tcheh-ar
+  - hah-ar
+  - khah-ar
+  - dal-ar
   - thal-ar
+  - reh-ar
   - zain-ar
   - jeh-ar
+  - seen-ar
   - sheen-ar
+  - sad-ar
   - dad-ar
+  - tah-ar
   - zah-ar
+  - ain-ar
   - ghain-ar
   - feh-ar
   - veh-ar
+  - fehDotless-ar
   - fehAfrican-ar
+  - qafDotless-ar
   - qaf-ar
   - qafAfrican-ar
+  - kaf-ar
   - keheh-ar
   - gaf-ar
+  - lam-ar
+  - meem-ar
   - noon-ar
+  - noonghunna-ar
   - noonAfrican-ar
+  - heh-ar
   - tehMarbuta-ar
+  - waw-ar
   - wawHamzaabove-ar
+  - alefMaksura-ar
   - yeh-ar
-  - yehFarsi-ar
   - yehHamzaabove-ar
-  - behDotless-ar.medi.l1
+  - yehFarsi-ar
+  - yehbarree-ar
+  - beh-ar.medi.l1
   - hah-ar.medi.l1
   - seen-ar.medi.l1
   - sad-ar.medi.l1
   - ain-ar.medi.l1
-  - fehDotless-ar.medi.l1
+  - feh-ar.medi.l1
+  - feh-ar.medi.alt.l1
   - kaf-ar.medi.l1
   - meem-ar.medi.l1
   - heh-ar.medi.l1
   - kashida-ar.l1
-  - behDotless-ar.medi.l2
+  - beh-ar.medi.l2
   - hah-ar.medi.l2
   - seen-ar.medi.l2
   - sad-ar.medi.l2
   - ain-ar.medi.l2
-  - fehDotless-ar.medi.l2
+  - feh-ar.medi.l2
   - kaf-ar.medi.l2
   - meem-ar.medi.l2
   - heh-ar.medi.l2

@@ -1,6 +1,6 @@
 {
 category = Letter;
-glyphname = "lam_lam_heh-ar";
+glyphname = "lam_lam_heh-ar.isol";
 kernLeft = heh;
 kernRight = lam;
 layers = (

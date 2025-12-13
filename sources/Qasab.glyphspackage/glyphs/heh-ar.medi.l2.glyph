@@ -14,6 +14,5 @@ width = 325;
 }
 );
 script = arabic;
-sortName = arL0350;
-sortNameKeep = arL0350;
+subCategory = "Level 2";
 }
