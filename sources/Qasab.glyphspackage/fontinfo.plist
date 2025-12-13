@@ -825,7 +825,7 @@ lookup before_dal {
 lookup before_reh {
 	sub @hah				by @hah _c.hah.reh;
 	sub @ain				by @ain [_c.hah.reh _c.ain.medi.reh];
-	sub feh-ar.medi	by feh-ar.medi _c.feh.medi.reh;
+	sub feh-ar.medi			by feh-ar.medi _c.feh.medi.reh;
 	sub kashida-ar			by kashida-ar _c.hah.reh;
 } before_reh;
 
@@ -849,7 +849,7 @@ lookup before_noon {
 @before_yeh = [@hah @ain kashida-ar];
 lookup before_yeh {
 	sub @before_yeh			by @before_yeh _c.ain.yeh;
-	sub feh-ar.medi	by feh-ar.medi.alt;
+	sub feh-ar.medi			by feh-ar.medi.alt;
 } before_yeh;
 
 lookup rclt_connection {
