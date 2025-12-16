@@ -13,7 +13,7 @@ tag = MSHQ;
 );
 classes = (
 {
-code = "$[name LIKE \"*-ar.isol\"]
+code = "$[name ENDSWITH '-ar.isol']
 
 period
 threedots-ar
@@ -24,12 +24,12 @@ dottedCircle
 name = isol;
 },
 {
-code = "$[name LIKE \"*.init*\" && ! name BEGINSWITH \"_\"]
+code = "$[name LIKE '*.init*' && ! name BEGINSWITH '_']
 ";
 name = init;
 },
 {
-code = "$[name LIKE \"*.fina*\"]
+code = "$[name LIKE '*.fina*']
 ";
 name = fina;
 },
@@ -240,7 +240,7 @@ lookup ccmp_vertical_vowels {
 	;
 } ccmp_vertical_vowels;
 
-@numbers = [$[category == \"Number\" && subCategory == \"Decimal Digit\"]];
+@numbers = [$[category == 'Number' && subCategory == 'Decimal Digit']];
 @one = [one one-ar];
 @two = [two two-ar];
 @three = [three three-ar];
@@ -328,7 +328,7 @@ lookup ccmp_ayah_numbers {
 
 lookup ccmp_ayah_10 {
 	sub  endofayah-ar' lookup ayah_10
-		[$[name LIKE \"ayah.*\"]]
+		[$[name BEGINSWITH 'ayah.']]
 	;
 } ccmp_ayah_10;
 
@@ -460,9 +460,9 @@ code = "lookup salt_hah {
 	sub hah-ar.fina					from [hah-ar.fina.salt];
 } salt_hah;
 
-@medi.l0 = [$[name LIKE \"*.medi\" && ! name ENDSWITH \".l1\" && ! name BEGINSWITH \"_\" && ! name MATCHES \"^(lam|tah|alefabove)-ar.*\"] kashida-ar];
-@medi.l1 = [$[name LIKE \"*.medi.l1\"] kashida-ar.l1];
-@medi.l2 = [$[name LIKE \"*.medi.l2\"] kashida-ar.l2];
+@medi.l0 = [$[name ENDSWITH '.medi' && ! name MATCHES '^(lam|tah|alefabove)-ar.*'] kashida-ar];
+@medi.l1 = [$[name ENDSWITH '.medi.l1'] kashida-ar.l1];
+@medi.l2 = [$[name ENDSWITH '.medi.l2'] kashida-ar.l2];
 @medi.l0.full = [@medi.l0 lam-ar.medi tah-ar.medi];
 @medi.l1.full = [@medi.l1 lam-ar.medi.hah1 tah-ar.medi.hah1];
 @medi.l2.full = [@medi.l2 lam-ar.medi.hah2 tah-ar.medi.hah2];
@@ -638,7 +638,7 @@ lookup rclt_wide_yeh {
 	;
 } rclt_wide_yeh;
 
-@dots = [$[name LIKE \"*dot*\" && category == \"Mark\"]];
+@dots = [$[name LIKE '*dot*' && category == 'Mark']];
 lookup ss01_dots {
 	sub @dots by dummy.mark;
 } ss01_dots;
@@ -757,8 +757,8 @@ code = "lookup rclt_fathatan {
 lookup rclt_kasratan {
 	lookupflag UseMarkFilteringSet [kasratan-ar];
 
-	sub [$[name MATCHES \"(seen|lam|noon)-ar\\.(isol|fina).*\"]
-		 $[name LIKE \"yeh-ar*salt\"]]
+	sub [$[name MATCHES '(seen|lam|noon)-ar\\.(isol|fina).*']
+		 $[name LIKE 'yeh-ar*salt']]
 		 kasratan-ar' lookup vertical_vowels;
 	;
 } rclt_kasratan;
@@ -799,13 +799,13 @@ lookup rclt_beh_dots {
 name = dots;
 },
 {
-code = "@beh = [$[name MATCHES \"beh-ar.(init|medi).*\" && ! name MATCHES \".*\\.(round|l1|l2|hah).*\"]];
+code = "@beh = [$[name MATCHES 'beh-ar\\.(init|medi).*' && ! name MATCHES '.*\\.(round|l1|l2|hah).*']];
 @hah = [hah-ar.init hah-ar.medi hah-ar.medi.alt];
 @seen = [seen-ar.init seen-ar.medi];
-@sad = [sad-ar.init sad-ar.medi $[name MATCHES \"tah-ar.(init|medi).*\"]];
+@sad = [sad-ar.init sad-ar.medi $[name MATCHES 'tah-ar\\.(init|medi).*']];
 @ain = [ain-ar.init ain-ar.medi];
 @feh = [feh-ar.init feh-ar.medi];
-@lam = [$[name MATCHES \"lam-ar.(init|medi).*\" && ! name MATCHES \".*\\.(round|alt).*\"]];
+@lam = [$[name MATCHES 'lam-ar\\.(init|medi).*' && ! name MATCHES '.*\\.(round|alt).*']];
 @meem = [meem-ar.init meem-ar.medi meem-ar.medi.round];
 @heh = [heh-ar.init heh-ar.medi];
 
@@ -873,7 +873,7 @@ lookup rclt_connection {
 	;
 
 	sub	 @before_beh' lookup before_beh
-		[$[rightKerningGroup = \"beh\"] feh-ar.medi feh-ar.fina]
+		[$[rightKerningGroup = 'beh'] feh-ar.medi feh-ar.fina]
 	;
 
 	sub	[@hah @ain feh-ar.medi]' lookup before_dal
@@ -1025,13 +1025,13 @@ code = "lookup spacing {
 
 # Automatic Code
 
-@beh.init	= [$[name MATCHES \"(beh|lam)-ar.init.*\"]];
-@beh.medi	= [$[name MATCHES \"(beh|lam)-ar.medi.*\"]];
-@sad.init	= [$[name MATCHES \"(sad|tah|kaf)-ar.init.*\"]];
-@sad.medi	= [$[name MATCHES \"(sad|tah|kaf)-ar.medi.*\"]];
-@hah.init	= [$[name MATCHES \"hah-ar.init.*\"]];
-@hah.medi	= [$[name MATCHES \"hah-ar.medi.*\"]];
-@seen.medi	= [$[name MATCHES \"seen-ar.medi.*\"]];
+@beh.init	= [$[name MATCHES '(beh|lam)-ar.init.*']];
+@beh.medi	= [$[name MATCHES '(beh|lam)-ar.medi.*']];
+@sad.init	= [$[name MATCHES '(sad|tah|kaf)-ar.init.*']];
+@sad.medi	= [$[name MATCHES '(sad|tah|kaf)-ar.medi.*']];
+@hah.init	= [$[name BEGINSWITH 'hah-ar.init']];
+@hah.medi	= [$[name BEGINSWITH 'hah-ar.medi']];
+@seen.medi	= [$[name BEGINSWITH 'seen-ar.medi']];
 @yeh.fina	= [yeh-ar.fina yeh-ar.fina.salt];
 @hah.fina	= [hah-ar.fina hah-ar.fina.salt];
 
@@ -1042,8 +1042,8 @@ tag = kern;
 {
 code = "# Automatic Code
 
-@behmedi = [$[name LIKE \"beh-ar.medi*\"]];
-@behinit = [$[name LIKE \"beh-ar.init*\"]];
+@behmedi = [$[name BEGINSWITH 'beh-ar.medi']];
+@behinit = [$[name BEGINSWITH 'beh-ar.init']];
 lookup dots_below {
 	lookupflag UseMarkFilteringSet @dotsbelow;
 
