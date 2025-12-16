@@ -333,16 +333,20 @@ lookup ccmp_ayah_10 {
 } ccmp_ayah_10;
 
 lookup ayah_numbers_delete {
-	sub @numbers by NULL;
+	sub @numbers by dummy.mark;
 } ayah_numbers_delete;
 
-lookup ccmp_ayah_cleanup {
+lookup ccmp_ayah_cleanup_1 {
 	lookupflag IgnoreMarks;
 
 	sub [endofayah-ar endofayah-ar.05 endofayah-ar.10]
 		@numbers' lookup ayah_numbers_delete
 	;
-} ccmp_ayah_cleanup;
+} ccmp_ayah_cleanup_1;
+
+lookup ccmp_ayah_cleanup_2 {
+	sub dummy.mark by NULL;
+} ccmp_ayah_cleanup_2;
 
 lookup salt_ayah {
 	sub endofayah-ar.05 by endofayah-ar.10 ayah.005;
@@ -636,8 +640,12 @@ lookup rclt_wide_yeh {
 
 @dots = [$[name LIKE \"*dot*\" && category == \"Mark\"]];
 lookup ss01_dots {
-	sub @dots by NULL;
+	sub @dots by dummy.mark;
 } ss01_dots;
+
+lookup ss01_cleanup {
+	sub dummy.mark by NULL;
+} ss01_cleanup;
 
 lookup salt_yeh {
 	sub yeh-ar.isol			from [yeh-ar.salt yehbarree-ar.isol];
@@ -938,7 +946,9 @@ lookup ccmp_vertical_vowels;
 lookup ccmp_kashida;
 lookup ccmp_ayah_numbers;
 lookup ccmp_ayah_10;
-lookup ccmp_ayah_cleanup;";
+lookup ccmp_ayah_cleanup_1;
+lookup ccmp_ayah_cleanup_2;
+";
 tag = ccmp;
 },
 {
@@ -985,6 +995,7 @@ tag = rclt;
 },
 {
 code = "lookup ss01_dots;
+lookup ss01_cleanup;
 ";
 labels = (
 {
