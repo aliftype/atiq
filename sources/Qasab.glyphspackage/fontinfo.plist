@@ -923,17 +923,6 @@ lookup rclt_connection {
 } rclt_connection;
 ";
 name = connections;
-},
-{
-code = "conditionset compact {
-	SPAC -100 -95;
-} compact;
-
-variation ccmp compact {
-	lookup ccmp_space;
-} ccmp;
-";
-name = variations;
 }
 );
 features = (
@@ -948,6 +937,9 @@ lookup ccmp_ayah_numbers;
 lookup ccmp_ayah_10;
 lookup ccmp_ayah_cleanup_1;
 lookup ccmp_ayah_cleanup_2;
+
+condition -100 < SPAC < -95;
+lookup ccmp_space;
 ";
 tag = ccmp;
 },
@@ -1018,8 +1010,11 @@ tag = curs;
 code = "lookup spacing {
 	lookupflag IgnoreMarks;
 	pos [@isol @fina] [@init @isol]
-		<(SPAC=0:${space:width} SPAC=-100:20 SPAC=125:500) 0
-		 (SPAC=0:${space:width} SPAC=-100:20 SPAC=125:500) 0>
+		<
+		 ${space:width} 0 ${space:width} 0
+		 (SPAC:-100)  20 0  20 0
+		 (SPAC: 125) 500 0 500 0
+		>
 	;
 } spacing;
 
@@ -1138,58 +1133,59 @@ lookup overhang {
 	pos @beh.init' 70 _c.seen.beh' @beh.medi' _c.seen.beh' heh-ar.medi' _c.feh.medi.beh' @beh.medi' @hah.medi';
 	pos @beh.init' 70 _c.seen.beh' heh-ar.medi' _c.feh.medi.beh' @beh.medi' _c.seen.beh' @beh.medi' @hah.medi';
 	pos @beh.init' 140 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' @hah.medi';
-	pos @beh.init' (MSHQ=10:610 MSHQ=100:5530) yehbarree-ar.fina.baseline';
-	pos seen-ar.init' (MSHQ=10:360 MSHQ=100:5280) yehbarree-ar.fina.baseline';
-	pos feh-ar.init.yeh' (MSHQ=10:350 MSHQ=100:5270) yehbarree-ar.fina.baseline';
-	pos meem-ar.init' (MSHQ=10:330 MSHQ=100:5250) yehbarree-ar.fina.baseline';
-	pos heh-ar.init' (MSHQ=10:360 MSHQ=100:5280) yehbarree-ar.fina.baseline';
-	pos @beh.init' (MSHQ=10:480 MSHQ=100:5400) _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:380 MSHQ=100:5300) @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:260 MSHQ=100:5180) _c.seen.beh' @seen.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:340 MSHQ=100:5260) _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:300 MSHQ=100:5220) _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:230 MSHQ=100:5150) meem-ar.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:260 MSHQ=100:5180) _c.seen.beh' heh-ar.medi' yehbarree-ar.fina';
-	pos seen-ar.init' (MSHQ=10:240 MSHQ=100:5160) _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos seen-ar.init' (MSHQ=10:130 MSHQ=100:5050) @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos seen-ar.init' (MSHQ=10:100 MSHQ=100:5020) _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos seen-ar.init' (MSHQ=10:60 MSHQ=100:4980) _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
-	pos feh-ar.init' (MSHQ=10:230 MSHQ=100:5150) _c.feh.init.beh' @beh.medi' yehbarree-ar.fina';
-	pos feh-ar.init.hah' (MSHQ=10:140 MSHQ=100:5060) @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos feh-ar.init' (MSHQ=10:90 MSHQ=100:5010) _c.feh.init.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos feh-ar.init' (MSHQ=10:50 MSHQ=100:4970) _c.feh.init.beh' feh-ar.medi.alt' yehbarree-ar.fina';
-	pos meem-ar.init' (MSHQ=10:200 MSHQ=100:5120) _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos meem-ar.init' (MSHQ=10:100 MSHQ=100:5020) @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos meem-ar.init' (MSHQ=10:60 MSHQ=100:4980) _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos heh-ar.init' (MSHQ=10:260 MSHQ=100:5180) _c.feh.medi.beh' @beh.medi' yehbarree-ar.fina';
-	pos heh-ar.init' (MSHQ=10:120 MSHQ=100:5040) @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos heh-ar.init' (MSHQ=10:110 MSHQ=100:5030) _c.feh.medi.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos heh-ar.init' (MSHQ=10:70 MSHQ=100:4990) _c.feh.medi.beh' feh-ar.medi.alt' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:360 MSHQ=100:5280) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:250 MSHQ=100:5170) _c.seen.beh' @beh.medi' @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:130 MSHQ=100:5050) _c.seen.beh' @beh.medi' _c.seen.beh' @seen.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:210 MSHQ=100:5130) _c.seen.beh' @beh.medi' _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:170 MSHQ=100:5090) _c.seen.beh' @beh.medi' _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:100 MSHQ=100:5020) _c.seen.beh' @beh.medi' meem-ar.medi.round' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:140 MSHQ=100:5060) _c.seen.beh' @beh.medi' _c.seen.beh' heh-ar.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:130 MSHQ=100:5050) _c.seen.beh' @seen.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:130 MSHQ=100:5050) _c.seen.beh' ain-ar.medi' _c.ain.medi.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:110 MSHQ=100:5030) _c.seen.beh' ain-ar.medi' @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:120 MSHQ=100:5040) _c.seen.beh' feh-ar.medi' _c.feh.medi.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:100 MSHQ=100:5020) meem-ar.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:160 MSHQ=100:5080) _c.seen.beh' heh-ar.medi' _c.feh.medi.beh' @beh.medi' yehbarree-ar.fina';
-	pos seen-ar.init' (MSHQ=10:110 MSHQ=100:5030) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos feh-ar.init' (MSHQ=10:100 MSHQ=100:5020) _c.feh.init.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos meem-ar.init' (MSHQ=10:70 MSHQ=100:4990) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos heh-ar.init' (MSHQ=10:130 MSHQ=100:5050) _c.feh.medi.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:230 MSHQ=100:5150) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:120 MSHQ=100:5040) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:90 MSHQ=100:5010) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:50 MSHQ=100:4970) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
-	pos @beh.init' (MSHQ=10:100 MSHQ=100:5020) _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 610 (MSHQ:100) 5530 yehbarree-ar.fina.baseline';
+	pos seen-ar.init' 360 (MSHQ:100) 5280 yehbarree-ar.fina.baseline';
+	pos feh-ar.init.yeh' 350 (MSHQ:100) 5270 yehbarree-ar.fina.baseline';
+	pos meem-ar.init' 330 (MSHQ:100) 5250 yehbarree-ar.fina.baseline';
+	pos heh-ar.init' 360 (MSHQ:100) 5280 yehbarree-ar.fina.baseline';
+	pos @beh.init' 480 (MSHQ:100) 5400 _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 380 (MSHQ:100) 5300 @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 260 (MSHQ:100) 5180 _c.seen.beh' @seen.medi' yehbarree-ar.fina';
+	pos @beh.init' 340 (MSHQ:100) 5260 _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 300 (MSHQ:100) 5220 _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
+	pos @beh.init' 230 (MSHQ:100) 5150 meem-ar.medi' yehbarree-ar.fina';
+	pos @beh.init' 260 (MSHQ:100) 5180 _c.seen.beh' heh-ar.medi' yehbarree-ar.fina';
+	pos seen-ar.init' 240 (MSHQ:100) 5160 _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos seen-ar.init' 130 (MSHQ:100) 5050 @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos seen-ar.init' 100 (MSHQ:100) 5020 _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos seen-ar.init' 60 (MSHQ:100) 4980 _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
+	pos feh-ar.init' 230 (MSHQ:100) 5150 _c.feh.init.beh' @beh.medi' yehbarree-ar.fina';
+	pos feh-ar.init.hah' 140 (MSHQ:100) 5060 @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos feh-ar.init' 90 (MSHQ:100) 5010 _c.feh.init.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos feh-ar.init' 50 (MSHQ:100) 4970 _c.feh.init.beh' feh-ar.medi.alt' yehbarree-ar.fina';
+	pos meem-ar.init' 200 (MSHQ:100) 5120 _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos meem-ar.init' 100 (MSHQ:100) 5020 @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos meem-ar.init' 60 (MSHQ:100) 4980 _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos heh-ar.init' 260 (MSHQ:100) 5180 _c.feh.medi.beh' @beh.medi' yehbarree-ar.fina';
+	pos heh-ar.init' 120 (MSHQ:100) 5040 @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos heh-ar.init' 110 (MSHQ:100) 5030 _c.feh.medi.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos heh-ar.init' 70 (MSHQ:100) 4990 _c.feh.medi.beh' feh-ar.medi.alt' yehbarree-ar.fina';
+	pos @beh.init' 360 (MSHQ:100) 5280 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 250 (MSHQ:100) 5170 _c.seen.beh' @beh.medi' @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 130 (MSHQ:100) 5050 _c.seen.beh' @beh.medi' _c.seen.beh' @seen.medi' yehbarree-ar.fina';
+	pos @beh.init' 210 (MSHQ:100) 5130 _c.seen.beh' @beh.medi' _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 170 (MSHQ:100) 5090 _c.seen.beh' @beh.medi' _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
+	pos @beh.init' 100 (MSHQ:100) 5020 _c.seen.beh' @beh.medi' meem-ar.medi.round' yehbarree-ar.fina';
+	pos @beh.init' 140 (MSHQ:100) 5060 _c.seen.beh' @beh.medi' _c.seen.beh' heh-ar.medi' yehbarree-ar.fina';
+	pos @beh.init' 130 (MSHQ:100) 5050 _c.seen.beh' @seen.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 130 (MSHQ:100) 5050 _c.seen.beh' ain-ar.medi' _c.ain.medi.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 110 (MSHQ:100) 5030 _c.seen.beh' ain-ar.medi' @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 120 (MSHQ:100) 5040 _c.seen.beh' feh-ar.medi' _c.feh.medi.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 100 (MSHQ:100) 5020 meem-ar.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 160 (MSHQ:100) 5080 _c.seen.beh' heh-ar.medi' _c.feh.medi.beh' @beh.medi' yehbarree-ar.fina';
+	pos seen-ar.init' 110 (MSHQ:100) 5030 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos feh-ar.init' 100 (MSHQ:100) 5020 _c.feh.init.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos meem-ar.init' 70 (MSHQ:100) 4990 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos heh-ar.init' 130 (MSHQ:100) 5050 _c.feh.medi.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 230 (MSHQ:100) 5150 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
+	pos @beh.init' 120 (MSHQ:100) 5040 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' @hah.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 90 (MSHQ:100) 5010 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' ain-ar.medi' _c.ain.yeh' yehbarree-ar.fina';
+	pos @beh.init' 50 (MSHQ:100) 4970 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' feh-ar.medi.alt' yehbarree-ar.fina';
+	pos @beh.init' 100 (MSHQ:100) 5020 _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' _c.seen.beh' @beh.medi' yehbarree-ar.fina';
 } overhang;
 
-# Overhang End";
+# Overhang End
+";
 tag = kern;
 },
 {
