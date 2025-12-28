@@ -1191,8 +1191,8 @@ tag = kern;
 {
 code = "# Automatic Code
 
-@behmedi = [$[name BEGINSWITH 'beh-ar.medi']];
-@behinit = [$[name BEGINSWITH 'beh-ar.init']];
+@behmedi = [$[name MATCHES '(beh|lam)-ar.medi.*']];
+@behinit = [$[name MATCHES '(beh|lam)-ar.init.*']];
 lookup dots_below {
 	lookupflag UseMarkFilteringSet @dotsbelow;
 
@@ -1231,8 +1231,8 @@ lookup dots_below {
 
 	pos	 @behmedi
 		 _c.seen.beh
-		 @dotsbelow' <265 -20 0 0>
-		 @beh.medi
+		 @dotsbelow' <590 -20 0 0>
+		 @behmedi
 		[hah-ar.medi hah-ar.medi.hah hah-ar.fina]
 	;
 
