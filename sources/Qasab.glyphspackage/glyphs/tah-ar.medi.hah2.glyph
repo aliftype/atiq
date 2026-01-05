@@ -40,7 +40,8 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 0,
-0
+0,
+10
 );
 };
 layerId = "EC8DE6B6-AFA2-439A-8CB2-6F77A5D9F003";
@@ -68,7 +69,8 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 0,
-100
+100,
+10
 );
 };
 layerId = "7F2682AE-2152-4552-959B-82C2C0DE2FB5";

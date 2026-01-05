@@ -23,6 +23,7 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 -100,
+10,
 10
 );
 };
@@ -41,6 +42,7 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 125,
+10,
 10
 );
 };

@@ -9,6 +9,10 @@ tag = SPAC;
 {
 name = Mashq;
 tag = MSHQ;
+},
+{
+name = "Secondry Mashq";
+tag = MSH2;
 }
 );
 classes = (
@@ -138,6 +142,24 @@ name = "Virtual Master";
 value = (
 {
 Axis = Mashq;
+Location = 100;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Secondry Mashq";
+Location = 0;
+}
+);
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Secondry Mashq";
 Location = 100;
 }
 );
@@ -1356,6 +1378,7 @@ fontMaster = (
 {
 axesValues = (
 0,
+10,
 10
 );
 customParameters = (
@@ -1475,6 +1498,7 @@ instances = (
 {
 axesValues = (
 0,
+10,
 10
 );
 name = Regular;
@@ -1488,6 +1512,7 @@ value = "Qasab-Regular";
 {
 axesValues = (
 -100,
+10,
 10
 );
 name = Compact;

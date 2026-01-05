@@ -115,7 +115,8 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 0,
-0
+0,
+10
 );
 };
 layerId = "602B23C6-C93C-4353-A108-CCF0EA74D0B1";
@@ -201,7 +202,8 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 0,
-100
+100,
+10
 );
 };
 backgroundImage = {
