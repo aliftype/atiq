@@ -11,7 +11,7 @@ pos = (1322,13);
 },
 {
 name = damma;
-pos = (-78,50);
+pos = (-22,50);
 },
 {
 name = fatha;
@@ -92,7 +92,7 @@ pos = (5991,13);
 },
 {
 name = damma;
-pos = (-78,50);
+pos = (-22,50);
 },
 {
 name = fatha;
@@ -175,7 +175,7 @@ pos = (532,13);
 },
 {
 name = damma;
-pos = (-51,86);
+pos = (-22,50);
 },
 {
 name = fatha;

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = damma;
-pos = (-45,57);
+pos = (-22,50);
 },
 {
 name = fatha;

@@ -11983,12 +11983,12 @@
     {
       "only": "Qasab.ttf",
       "input": "ؤُ",
-      "expectation": "damma-ar=0@-120,-18+0|waw-ar.isol=0+537"
+      "expectation": "damma-ar=0@-97,-25+0|waw-ar.isol=0+537"
     },
     {
       "only": "Qasab.ttf",
       "input": "ؤُ",
-      "expectation": "damma-ar=0@-120,-18+0|waw-ar.isol=0+537",
+      "expectation": "damma-ar=0@-97,-25+0|waw-ar.isol=0+537",
       "variations": {
         "SPAC": -100.0,
         "MSHQ": 10.0

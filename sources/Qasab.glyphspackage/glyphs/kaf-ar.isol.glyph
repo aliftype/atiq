@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = damma;
-pos = (-22,49);
+pos = (-22,50);
 },
 {
 name = fatha;
@@ -109,7 +109,7 @@ width = 1155;
 anchors = (
 {
 name = damma;
-pos = (-22,49);
+pos = (-22,50);
 },
 {
 name = fatha;
@@ -212,7 +212,7 @@ width = 6000;
 anchors = (
 {
 name = damma;
-pos = (-22,49);
+pos = (-22,50);
 },
 {
 name = fatha;
