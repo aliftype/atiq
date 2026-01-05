@@ -38,36 +38,8 @@ associatedMasterId = m01;
 attr = {
 coordinates = (
 0,
-80,
-10
-);
-};
-layerId = "94172F02-4388-4672-8AFE-BEC85DEDFE74";
-name = "17 May 23 at 17:56";
-shapes = (
-{
-ref = "hah-ar.isol";
-}
-);
-width = 1668;
-},
-{
-anchors = (
-{
-name = entry;
-pos = (767,130);
-},
-{
-name = fatha;
-pos = (719,328);
-}
-);
-associatedMasterId = m01;
-attr = {
-coordinates = (
-0,
-100,
-10
+10,
+100
 );
 };
 layerId = "5CEC36C1-5F28-4DF0-934C-02B5E49A159A";
