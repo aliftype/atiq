@@ -29,34 +29,6 @@ width = 970;
 anchors = (
 {
 name = entry;
-pos = (5989,230);
-},
-{
-name = exit;
-pos = (0,230);
-}
-);
-associatedMasterId = m01;
-attr = {
-coordinates = (
-0,
-100
-);
-};
-layerId = "7F2682AE-2152-4552-959B-82C2C0DE2FB5";
-name = "17 May 23 at 01:16";
-shapes = (
-{
-alignment = -1;
-ref = "tah-ar.init.hah2";
-}
-);
-width = 5989;
-},
-{
-anchors = (
-{
-name = entry;
 pos = (411,230);
 },
 {
@@ -80,6 +52,34 @@ ref = "tah-ar.init.hah2";
 }
 );
 width = 411;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5989,230);
+},
+{
+name = exit;
+pos = (0,230);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "7F2682AE-2152-4552-959B-82C2C0DE2FB5";
+name = "17 May 23 at 01:16";
+shapes = (
+{
+alignment = -1;
+ref = "tah-ar.init.hah2";
+}
+);
+width = 5989;
 }
 );
 metricLeft = "=tah-ar.init";

@@ -25,30 +25,6 @@ width = 1114;
 anchors = (
 {
 name = entry;
-pos = (5975,0);
-}
-);
-associatedMasterId = m01;
-attr = {
-coordinates = (
-0,
-100
-);
-};
-layerId = "1C08AE65-7D33-4305-928A-8761C156C024";
-name = "15 May 23 at 22:26";
-shapes = (
-{
-alignment = -1;
-ref = "dal-ar.isol";
-}
-);
-width = 5975;
-},
-{
-anchors = (
-{
-name = entry;
 pos = (514,0);
 }
 );
@@ -68,6 +44,30 @@ ref = "dal-ar.isol";
 }
 );
 width = 514;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (5975,0);
+}
+);
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100
+);
+};
+layerId = "1C08AE65-7D33-4305-928A-8761C156C024";
+name = "15 May 23 at 22:26";
+shapes = (
+{
+alignment = -1;
+ref = "dal-ar.isol";
+}
+);
+width = 5975;
 }
 );
 metricLeft = "=0";
