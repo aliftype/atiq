@@ -83,10 +83,10 @@ def shape(font, text, direction="rtl", script="arab", features=None):
     adj2 = None
     if glyphs[-1].startswith("yehbarree-ar.fina"):
         font2 = hb.Font(font.face)
-        font2.set_variations({"MSHQ": 100})
+        font2.set_variations({"MSH2": 100})
         overhang2 = font2.get_glyph_h_advance(infos[-1].codepoint)
         adj2 = adj + (overhang2 - overhang)
-        adj2 = f"{adj} (MSHQ:100) {adj2}"
+        adj2 = f"{adj} (MSH2:100) {adj2}"
 
     return glyphs, adj, adj2
 
