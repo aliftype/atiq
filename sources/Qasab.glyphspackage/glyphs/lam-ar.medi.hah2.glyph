@@ -7,11 +7,79 @@ layers = (
 {
 anchors = (
 {
+name = damma;
+pos = (-22,405);
+},
+{
+name = entry;
+pos = (101,230);
+},
+{
+name = exit;
+pos = (0,230);
+},
+{
+name = fatha;
+pos = (-64,757);
+},
+{
+name = kasra;
+pos = (83,171);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,230,l),
+(127,340,l),
+(95,340,l),
+(95,421,l),
+(95,635,o),
+(92,661,o),
+(88,912,cs),
+(88,920,o),
+(84,921,o),
+(81,916,cs),
+(60,878,o),
+(27,818,o),
+(1,795,cs),
+(-12,783,o),
+(-9,778,o),
+(-7,766,cs),
+(5,703,o),
+(6,625,o),
+(7,538,cs),
+(9,291,l),
+(59,340,l),
+(-20,340,l),
+(-20,230,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,340,l),
+(111,347,o),
+(97,354,o),
+(95,421,c),
+(84,340,l)
+);
+}
+);
+width = 101;
+},
+{
+anchors = (
+{
 name = entry;
 pos = (107,230);
 }
 );
-layerId = m01;
+associatedMasterId = m01;
+layerId = "85CC9CAF-308F-434D-ADEA-2502E12A2093";
+name = "5 Jan 26 at 18:46";
 shapes = (
 {
 alignment = -1;
@@ -37,11 +105,13 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 107;
 }
 );
-metricLeft = "=-20";
-metricRight = "=3@387";
+metricLeft = "=lam-ar.medi";
+metricRight = "=lam-ar.medi";
+metricWidth = "=lam-ar.medi";
 production = lamar.medi.hah2;
 script = arabic;
 sortName = arL0055.hah2;

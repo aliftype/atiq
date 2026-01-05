@@ -62,7 +62,7 @@ nodes = (
 width = 111;
 }
 );
-metricLeft = "=-20@115";
+metricLeft = "=-20";
 metricRight = "=0";
 metricWidth = "=lam-ar.init";
 production = lamar.init.hah1;
