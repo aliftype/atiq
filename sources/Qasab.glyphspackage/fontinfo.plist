@@ -1066,6 +1066,24 @@ code = "lookup spacing {
 	;
 } spacing;
 
+lookup spacing_ayah {
+	lookupflag 0;
+	pos	[endofayah-ar.10 sajdah-ar]
+		<
+		 0 0 0 0
+		 (SPAC:-100) -180 0 -360 0
+		 (SPAC: 125)  300 0  600 0
+		>
+	;
+	pos	[$[name BEGINSWITH \"ayah.\"]]
+		<
+		 0 0 0 0
+		 (SPAC:-100)  180 0 0 0
+		 (SPAC: 125) -300 0 0 0
+		>
+	;
+} spacing_ayah;
+
 # Automatic Code
 
 @beh.init	= [$[name MATCHES '(beh|lam)-ar.init.*']];

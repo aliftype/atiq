@@ -1635,7 +1635,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٥",
-      "expectation": "endofayah-ar.10=0+1117|ayah.005=0+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.005=0@180,0+0",
       "direction": "ltr",
       "features": {
         "salt": 1
@@ -1825,7 +1825,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.010=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.010=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -1995,7 +1995,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.020=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.020=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -2165,7 +2165,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٣٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.030=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.030=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -2335,7 +2335,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٤٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.040=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.040=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -2505,7 +2505,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٥٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.050=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.050=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -2675,7 +2675,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٦٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.060=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.060=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -2845,7 +2845,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٧٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.070=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.070=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -3015,7 +3015,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٨٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.080=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.080=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -3185,7 +3185,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٩٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.090=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.090=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -3355,7 +3355,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٠٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.100=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.100=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -3525,7 +3525,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١١٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.110=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.110=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -3695,7 +3695,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٢٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.120=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.120=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -3865,7 +3865,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٣٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.130=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.130=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -4035,7 +4035,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٤٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.140=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.140=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -4205,7 +4205,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٥٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.150=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.150=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -4375,7 +4375,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٦٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.160=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.160=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -4545,7 +4545,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٧٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.170=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.170=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -4715,7 +4715,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٨٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.180=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.180=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -4885,7 +4885,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝١٩٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.190=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.190=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -5055,7 +5055,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٠٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.200=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.200=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -5225,7 +5225,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢١٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.210=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.210=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -5395,7 +5395,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٢٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.220=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.220=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -5565,7 +5565,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٣٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.230=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.230=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -5735,7 +5735,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٤٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.240=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.240=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -5905,7 +5905,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٥٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.250=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.250=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -6075,7 +6075,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٦٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.260=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.260=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -6245,7 +6245,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٧٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.270=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.270=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -6415,7 +6415,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝٢٨٠",
-      "expectation": "endofayah-ar.10=0+1117|ayah.280=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.280=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -6772,7 +6772,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝100",
-      "expectation": "endofayah-ar.10=0+1117|ayah.100=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.100=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -6942,7 +6942,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝10",
-      "expectation": "endofayah-ar.10=0+1117|ayah.010=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.010=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -6959,7 +6959,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝110",
-      "expectation": "endofayah-ar.10=0+1117|ayah.110=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.110=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -7146,7 +7146,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝120",
-      "expectation": "endofayah-ar.10=0+1117|ayah.120=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.120=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -7333,7 +7333,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝130",
-      "expectation": "endofayah-ar.10=0+1117|ayah.130=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.130=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -7520,7 +7520,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝140",
-      "expectation": "endofayah-ar.10=0+1117|ayah.140=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.140=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -7707,7 +7707,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝150",
-      "expectation": "endofayah-ar.10=0+1117|ayah.150=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.150=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -7894,7 +7894,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝160",
-      "expectation": "endofayah-ar.10=0+1117|ayah.160=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.160=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -8081,7 +8081,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝170",
-      "expectation": "endofayah-ar.10=0+1117|ayah.170=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.170=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -8268,7 +8268,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝180",
-      "expectation": "endofayah-ar.10=0+1117|ayah.180=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.180=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -8455,7 +8455,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝190",
-      "expectation": "endofayah-ar.10=0+1117|ayah.190=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.190=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -8642,7 +8642,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝200",
-      "expectation": "endofayah-ar.10=0+1117|ayah.200=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.200=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -8812,7 +8812,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝20",
-      "expectation": "endofayah-ar.10=0+1117|ayah.020=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.020=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -8829,7 +8829,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝210",
-      "expectation": "endofayah-ar.10=0+1117|ayah.210=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.210=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -9016,7 +9016,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝220",
-      "expectation": "endofayah-ar.10=0+1117|ayah.220=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.220=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -9203,7 +9203,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝230",
-      "expectation": "endofayah-ar.10=0+1117|ayah.230=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.230=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -9390,7 +9390,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝240",
-      "expectation": "endofayah-ar.10=0+1117|ayah.240=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.240=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -9577,7 +9577,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝250",
-      "expectation": "endofayah-ar.10=0+1117|ayah.250=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.250=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -9764,7 +9764,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝260",
-      "expectation": "endofayah-ar.10=0+1117|ayah.260=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.260=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -9951,7 +9951,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝270",
-      "expectation": "endofayah-ar.10=0+1117|ayah.270=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.270=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -10138,7 +10138,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝280",
-      "expectation": "endofayah-ar.10=0+1117|ayah.280=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.280=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -10529,7 +10529,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝30",
-      "expectation": "endofayah-ar.10=0+1117|ayah.030=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.030=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -10699,7 +10699,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝40",
-      "expectation": "endofayah-ar.10=0+1117|ayah.040=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.040=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -10869,7 +10869,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝50",
-      "expectation": "endofayah-ar.10=0+1117|ayah.050=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.050=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -11039,7 +11039,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝60",
-      "expectation": "endofayah-ar.10=0+1117|ayah.060=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.060=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -11209,7 +11209,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝70",
-      "expectation": "endofayah-ar.10=0+1117|ayah.070=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.070=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -11379,7 +11379,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝80",
-      "expectation": "endofayah-ar.10=0+1117|ayah.080=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.080=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
@@ -11549,7 +11549,7 @@
     {
       "only": "Qasab.ttf",
       "input": "۝90",
-      "expectation": "endofayah-ar.10=0+1117|ayah.090=1+0",
+      "expectation": "endofayah-ar.10=0@-180,0+757|ayah.090=1@180,0+0",
       "direction": "ltr",
       "variations": {
         "SPAC": -100.0,
