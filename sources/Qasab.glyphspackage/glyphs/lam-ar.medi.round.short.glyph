@@ -1,7 +1,6 @@
 {
 category = Letter;
 glyphname = "lam-ar.medi.round.short";
-kernLeft = lam.round;
 kernRight = beh;
 layers = (
 {

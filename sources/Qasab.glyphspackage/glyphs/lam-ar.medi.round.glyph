@@ -1,7 +1,6 @@
 {
 category = Letter;
 glyphname = "lam-ar.medi.round";
-kernLeft = lam.round;
 kernRight = beh;
 layers = (
 {
@@ -16,7 +15,7 @@ pos = (100,0);
 },
 {
 name = exit;
-pos = (15,0);
+pos = (16,0);
 },
 {
 name = fatha;

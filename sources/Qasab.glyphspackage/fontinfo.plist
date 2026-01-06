@@ -1621,9 +1621,6 @@ _c.seen.beh = -15;
 "seen_yeh-ar.isol" = 140;
 "waw-ar.isol" = -82;
 };
-"@MMK_R_lam.round" = {
-"yeh-ar.fina.tooth" = -7;
-};
 "@MMK_R_meem.alt" = {
 "reh-ar.fina" = 20;
 };
