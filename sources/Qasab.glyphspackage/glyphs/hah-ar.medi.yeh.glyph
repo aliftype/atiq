@@ -1,0 +1,96 @@
+{
+category = Letter;
+glyphname = "hah-ar.medi.yeh";
+kernLeft = hah;
+kernRight = hah.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (353,-54);
+},
+{
+name = damma;
+pos = (-15,155);
+},
+{
+name = entry;
+pos = (216,115);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (61,331);
+},
+{
+name = kasra;
+pos = (458,-52);
+},
+{
+name = top;
+pos = (55,241);
+}
+);
+backgroundImage = {
+alpha = 80;
+angle = 1.74003;
+imagePath = "images/CBL-MS-1407-000005.png";
+locked = 1;
+pos = (-5259,-2491);
+scale = (3.4,3.4);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(388,-1,o),
+(479,2,o),
+(817,2,cs),
+(826,2,o),
+(858,7,o),
+(871,17,cs),
+(897,36,o),
+(941,56,o),
+(982,78,cs),
+(988,81,o),
+(988,85,o),
+(983,85,cs),
+(853,83,o),
+(792,87,o),
+(670,91,cs),
+(587,94,o),
+(459,131,o),
+(394,150,cs),
+(320,172,o),
+(198,229,o),
+(111,301,cs),
+(107,304,o),
+(103,305,o),
+(99,299,cs),
+(70,257,o),
+(40,213,o),
+(14,196,cs),
+(7,192,o),
+(2,186,o),
+(12,178,cs),
+(67,133,o),
+(193,73,o),
+(250,54,c),
+(190,90,l),
+(60,90,l),
+(60,0,l)
+);
+}
+);
+width = 987;
+}
+);
+metricRight = "=0";
+script = arabic;
+sortName = arL0016;
+sortNameKeep = arL0016;
+}

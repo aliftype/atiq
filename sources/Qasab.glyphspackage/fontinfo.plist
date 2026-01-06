@@ -901,7 +901,10 @@ lookup before_noon {
 
 @before_yeh = [@hah @ain kashida-ar];
 lookup before_yeh {
-	sub @before_yeh			by @before_yeh _c.ain.yeh;
+	sub [@ain kashida-ar]	by [@ain kashida-ar] _c.ain.yeh;
+	sub hah-ar.init			by hah-ar.init.yeh _c.ain.yeh;
+	sub hah-ar.medi			by hah-ar.medi.yeh _c.ain.yeh;
+	sub hah-ar.medi.alt		by hah-ar.medi.alt.yeh _c.ain.yeh;
 	sub feh-ar.medi			by feh-ar.medi.yeh;
 } before_yeh;
 
@@ -1502,6 +1505,7 @@ GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
+visible = 1;
 }
 );
 instances = (
@@ -1800,11 +1804,18 @@ _c.hah.noon = -25;
 _c.ain.yeh = -20;
 "lam_alef-ar.fina" = -57;
 };
+"hah-ar.init.yeh" = {
+_c.ain.yeh = -20;
+};
 "hah-ar.medi" = {
 _c.hah.dal = -23;
 };
 "hah-ar.medi.alt" = {
+_c.ain.yeh = -20;
 "lam_alef-ar.fina" = -57;
+};
+"hah-ar.medi.alt.yeh" = {
+_c.ain.yeh = -20;
 };
 "kaf-ar.fina" = {
 "alef-ar.isol" = -50;
