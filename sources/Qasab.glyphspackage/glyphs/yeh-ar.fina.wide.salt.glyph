@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = "yeh-ar.fina.wide.salt";
+kernRight = yeh.wide;
 layers = (
 {
 anchors = (
@@ -53,7 +54,7 @@ nodes = (
 (135,45,o),
 (147,35,cs),
 (181,8,o),
-(224,0,o),
+(224,-2,o),
 (299,0,c),
 (299,116,l),
 (244,145,o),

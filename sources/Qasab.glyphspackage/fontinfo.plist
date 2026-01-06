@@ -1550,9 +1550,9 @@ m01 = {
 };
 "@MMK_R_ain.init" = {
 "@MMK_L_beh" = 50;
-"@MMK_L_kaf.wide" = -34;
 "@MMK_L_sad" = 45;
 "@MMK_L_yeh" = -49;
+"@MMK_L_yeh.wide" = -34;
 };
 "@MMK_R_alef.fina" = {
 "qaf-ar.isol" = -90;
@@ -1561,6 +1561,8 @@ m01 = {
 };
 "@MMK_R_beh" = {
 "@MMK_L_yeh" = -10;
+"@MMK_L_yeh.wide" = -10;
+"@MMK_L_yehbarree" = -10;
 _c.seen.beh = -10;
 };
 "@MMK_R_beh.init" = {
@@ -1636,9 +1638,9 @@ _c.seen.beh = -10;
 "alef-ar.isol" = -110;
 };
 "@MMK_R_seen" = {
-"@MMK_L_kaf.wide" = -19;
 "@MMK_L_sad" = -15;
 "@MMK_L_yeh" = -36;
+"@MMK_L_yeh.wide" = -19;
 "@MMK_L_yehbarree" = -32;
 _c.seen.meem = -10;
 };
