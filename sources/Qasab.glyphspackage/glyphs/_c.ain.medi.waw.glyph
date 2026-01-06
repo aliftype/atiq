@@ -9,6 +9,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(161,0,l),
+(161,105,l),
+(125,102,o),
+(6,125,o),
+(-54,220,c),
+(-4,0,l)
+);
+}
+);
+width = 116;
+},
+{
+associatedMasterId = m01;
+layerId = "49097EF3-181B-4DD4-AFDC-8C44AEB9914F";
+name = "6 Jan 26 at 02:25";
+shapes = (
+{
+closed = 1;
+nodes = (
 (116,0,l),
 (116,110,l),
 (79,114,o),
@@ -18,6 +37,7 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 116;
 }
 );

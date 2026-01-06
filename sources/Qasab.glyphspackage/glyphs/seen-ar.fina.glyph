@@ -21,19 +21,19 @@ ref = "seen-ar.isol";
 closed = 1;
 nodes = (
 (481,0,l),
-(481,110,l),
-(381,110,l),
+(481,90,l),
+(381,90,l),
 (243,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(481,110,l),
-(464,117,o),
-(449,125,o),
-(448,221,c),
-(438,110,l)
+(481,90,l),
+(464,97,o),
+(449,105,o),
+(448,201,c),
+(438,90,l)
 );
 }
 );
@@ -41,7 +41,7 @@ width = 455;
 }
 );
 metricLeft = "=seen-ar.isol";
-metricRight = "=3@157";
+metricRight = "=3@137";
 script = arabic;
 sortName = arL0024;
 sortNameKeep = arL0024;

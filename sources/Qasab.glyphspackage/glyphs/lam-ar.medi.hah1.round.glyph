@@ -32,6 +32,66 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(121,205,l),
+(114,206,o),
+(96,214,o),
+(95,278,cs),
+(91,457,o),
+(89,813,o),
+(85,908,cs),
+(85,918,o),
+(78,925,o),
+(72,908,cs),
+(60,874,o),
+(22,799,o),
+(1,777,cs),
+(-3,773,o),
+(-5,770,o),
+(-4,764,cs),
+(10,641,o),
+(13,321,o),
+(10,212,cs),
+(9,129,o),
+(29,119,o),
+(56,117,cs),
+(82,115,o),
+(95,115,o),
+(121,115,c)
+);
+}
+);
+width = 100;
+},
+{
+anchors = (
+{
+name = damma;
+pos = (-36,186);
+},
+{
+name = entry;
+pos = (100,115);
+},
+{
+name = exit;
+pos = (15,115);
+},
+{
+name = fatha;
+pos = (-75,735);
+},
+{
+name = kasra;
+pos = (69,19);
+}
+);
+associatedMasterId = m01;
+layerId = "BC7C444E-0286-47F9-A1EF-A3AFEC34C902";
+name = "6 Jan 26 at 03:10";
+shapes = (
+{
+closed = 1;
+nodes = (
 (121,225,l),
 (114,226,o),
 (96,234,o),
@@ -60,10 +120,11 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 100;
 }
 );
-metricRight = "=3@272";
+metricRight = "=3@252";
 production = lamar.medi.hah1.round;
 script = arabic;
 sortName = arL0055.hah1.round;

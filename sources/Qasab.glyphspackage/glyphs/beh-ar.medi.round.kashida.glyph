@@ -21,7 +21,7 @@ name = exit;
 },
 {
 name = fatha;
-pos = (55,480);
+pos = (53,529);
 },
 {
 name = kasra;
@@ -29,7 +29,7 @@ pos = (82,-65);
 },
 {
 name = top;
-pos = (27,358);
+pos = (30,411);
 }
 );
 backgroundImage = {
@@ -41,6 +41,76 @@ pos = (-742,-277);
 scale = (14.67,14.67);
 };
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,0,l),
+(188,90,l),
+(81,90,o),
+(76,316,o),
+(72,440,cs),
+(72,447,o),
+(68,446,o),
+(64,440,cs),
+(40,399,o),
+(10,353,o),
+(-12,330,cs),
+(-16,325,o),
+(-18,320,o),
+(-18,314,cs),
+(-12,223,o),
+(-9,148,o),
+(1,65,cs),
+(4,41,o),
+(18,0,o),
+(65,0,c)
+);
+}
+);
+width = 162;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (75,-40);
+},
+{
+name = damma;
+pos = (-22,237);
+},
+{
+name = entry;
+pos = (162,0);
+},
+{
+name = exit;
+},
+{
+name = fatha;
+pos = (55,480);
+},
+{
+name = kasra;
+pos = (82,-65);
+},
+{
+name = top;
+pos = (27,358);
+}
+);
+associatedMasterId = m01;
+backgroundImage = {
+alpha = 80;
+angle = -0.3;
+imagePath = "images/behDotless-ar.medi.kaf.jpg";
+locked = 1;
+pos = (-742,-277);
+scale = (14.67,14.67);
+};
+layerId = "F7E67D96-EA67-40B1-AE9F-7AAA28FDBA5C";
+name = "6 Jan 26 at 01:37";
 shapes = (
 {
 closed = 1;

@@ -29,19 +29,19 @@ ref = "lam-ar.isol";
 closed = 1;
 nodes = (
 (324,0,l),
-(324,110,l),
-(252,110,l),
+(324,90,l),
+(252,90,l),
 (252,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(324,110,l),
-(307,117,o),
-(292,125,o),
-(292,208,c),
-(281,110,l)
+(324,90,l),
+(307,97,o),
+(292,105,o),
+(292,188,c),
+(281,90,l)
 );
 }
 );
@@ -49,7 +49,7 @@ width = 298;
 }
 );
 metricLeft = "=lam-ar.isol";
-metricRight = "=3@157";
+metricRight = "=3@137";
 script = arabic;
 sortName = arL0054;
 sortNameKeep = arL0054;

@@ -9,20 +9,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(34,0,l),
-(34,109,l),
-(4,132,o),
-(-25,154,o),
+(83,0,l),
+(83,72,l),
+(34,111,o),
+(-9,140,o),
 (-54,182,c),
 (-64,182,l),
 (-10,0,l)
 );
 }
 );
-width = 34;
+width = 83;
 }
 );
 metricLeft = "=-64";
+metricRight = "=0";
 script = arabic;
 subCategory = Nonspacing;
 }

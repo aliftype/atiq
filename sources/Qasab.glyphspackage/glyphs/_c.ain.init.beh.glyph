@@ -16,6 +16,37 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(138,0,l),
+(138,90,l),
+(95,86,o),
+(-33,137,o),
+(-3,281,c),
+(37,220,l),
+(-71,220,l),
+(-26,279,l),
+(-26,0,l)
+);
+}
+);
+width = 93;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (49,0);
+},
+{
+name = exit;
+}
+);
+associatedMasterId = m01;
+layerId = "7CF4473F-6B2A-411E-81FB-4FF4CA7F4A79";
+name = "6 Jan 26 at 02:36";
+shapes = (
+{
+closed = 1;
+nodes = (
 (93,0,l),
 (93,110,l),
 (49,118,o),
@@ -26,9 +57,9 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 93;
 }
 );
 metricLeft = "=-26";
-metricRight = "=0";
 }

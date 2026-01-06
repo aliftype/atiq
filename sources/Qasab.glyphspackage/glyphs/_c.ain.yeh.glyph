@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = entry;
-pos = (25,0);
+pos = (5,0);
 },
 {
 name = exit;
@@ -13,6 +13,36 @@ pos = (22,0);
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,0,l),
+(122,90,l),
+(63,88,o),
+(15,114,o),
+(-27,153,c),
+(-50,153,l),
+(17,0,l)
+);
+}
+);
+width = 77;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (25,0);
+},
+{
+name = exit;
+pos = (22,0);
+}
+);
+associatedMasterId = m01;
+layerId = "F974F3C8-BE94-4F90-96AE-1824D36FE77D";
+name = "6 Jan 26 at 02:32";
 shapes = (
 {
 closed = 1;
@@ -27,8 +57,8 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 77;
 }
 );
-metricRight = "=0";
 }

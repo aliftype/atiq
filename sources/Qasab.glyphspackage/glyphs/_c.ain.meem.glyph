@@ -17,6 +17,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(192,0,l),
+(192,90,l),
+(100,88,o),
+(19,121,o),
+(-13,192,c),
+(-23,192,l),
+(-23,0,l)
+);
+}
+);
+width = 102;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (58,0);
+},
+{
+name = exit;
+}
+);
+associatedMasterId = m01;
+layerId = "368ECFC4-44EF-4791-9EE7-65A216DFFE17";
+name = "6 Jan 26 at 02:30";
+shapes = (
+{
+closed = 1;
+nodes = (
 (102,0,l),
 (102,110,l),
 (68,110,o),
@@ -27,8 +56,8 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 102;
 }
 );
-metricRight = "=0";
 }
