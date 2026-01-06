@@ -14,131 +14,10 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (222,58);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-angle = 9;
-pos = (427,370);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = -32;
-pos = (555,424);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = -63;
-pos = (687,367);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = -101;
-pos = (769,262);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = -132;
-pos = (754,128);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = -170;
-pos = (685,21);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = 155;
-pos = (558,-18);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = 121;
-pos = (437,24);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = 85;
-pos = (360,125);
-ref = _ayah.decoration0;
-},
-{
-alignment = -1;
-angle = 43;
-pos = (343,258);
-ref = _ayah.decoration0;
-},
-{
-pos = (949,0);
-ref = _ayah.ring0;
-},
-{
-alignment = -1;
-pos = (821,247);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (816,54);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (700,-99);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (518,-157);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (222,249);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (338,408);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (707,404);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (521,471);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-alignment = -1;
-pos = (334,-95);
-ref = _dot;
-scale = (0.5,0.5);
-},
-{
-pos = (386,181);
 ref = _ayah.sajdah;
+},
+{
+ref = "endofayah-ar.10";
 }
 );
 width = 1117;
@@ -391,7 +270,6 @@ pos = (949,0);
 ref = _ayah.ring1;
 },
 {
-pos = (386,181);
 ref = _ayah.sajdah.1;
 }
 );
@@ -470,7 +348,6 @@ pos = (949,0);
 ref = _ayah.ring0;
 },
 {
-pos = (386,181);
 ref = _ayah.sajdah;
 }
 );
