@@ -160,9 +160,9 @@ lookup overhang {{
 {"\n".join(rules)}
 }} overhang;
 """
-    pat = re.compile("# Overhang Begin.*.# Overhang End", flags=re.DOTALL)
+    pat = re.compile(r"(# Overhang Begin\n).*?(\n# Overhang End)", flags=re.DOTALL)
     assert pat.findall(data), pat.findall(data)
-    data = pat.sub(f"# Overhang Begin\n{lookup}\n# Overhang End", data)
+    data = pat.sub(rf"\1{lookup}\2", data)
 
     with open(args.plist, "w") as f:
         f.write(data)
