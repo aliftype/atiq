@@ -1,7 +1,6 @@
-Qasab
+Atiq
 =====
 
 ![Sample](FontSample.svg)
 
-_Qasab_ (قصب) is a manuscript Kufic typeface. _Qasab_ is Arabic for reed, the
-material from which calligraphy pens are made.
+_Atiq_ (عتيق) is a manuscript Kufic typeface.
