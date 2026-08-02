@@ -1,5 +1,5 @@
 {
-.appVersion = "3436";
+.appVersion = "3530";
 .formatVersion = 3;
 axes = (
 {
@@ -1467,6 +1467,10 @@ visible = 1;
 }
 );
 instances = (
+{
+name = Regular;
+type = variable;
+},
 {
 axesValues = (
 0,
