@@ -1,5 +1,5 @@
 {
-.appVersion = "3530";
+.appVersion = "3535";
 .formatVersion = 3;
 axes = (
 {
@@ -1522,12 +1522,13 @@ m01 = {
 "yeh-ar.salt" = 4;
 };
 "@MMK_R_beh" = {
-"@MMK_L_yeh" = -10;
-"@MMK_L_yeh.wide" = -10;
-"@MMK_L_yehbarree" = -10;
+"@MMK_L_yeh" = -20;
+"@MMK_L_yeh.wide" = -20;
+"@MMK_L_yehbarree" = -20;
 _c.seen.beh = -10;
 };
 "@MMK_R_beh.init" = {
+"@MMK_L_yeh.wide" = -20;
 _c.seen.beh = -20;
 };
 "@MMK_R_dal.fina" = {
@@ -1560,6 +1561,8 @@ _c.hah.noon = -20;
 };
 "@MMK_R_lam" = {
 "@MMK_L_sad" = -23;
+"@MMK_L_yeh" = -20;
+"@MMK_L_yeh.wide" = -20;
 _c.seen.beh = -15;
 "meem-ar.fina" = -30;
 "meem-ar.medi" = -25;
