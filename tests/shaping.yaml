@@ -775,6 +775,26 @@ input:
   - ۝98
   - ۝99
 
+- variations:
+    MSHQ: 0
+  text:
+  - يـن
+
+- variations:
+    MSHQ: 10.5
+  text:
+  - يـن
+
+- variations:
+    MSHQ: 11
+  text:
+  - يـن
+
+- variations:
+    MSHQ: 100
+  text:
+  - يـن
+
 - text:
   - ء
   - ا ‍ا
@@ -1517,3 +1537,4 @@ input:
   - الذے
   - اثم
   - باثم
+  - يـن

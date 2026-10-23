@@ -894,9 +894,10 @@ lookup before_waw {
 	sub ain-ar.medi			by ain-ar.medi _c.ain.medi.waw;
 } before_waw;
 
-@before_noon = [@hah @seen @ain feh-ar.init feh-ar.medi kashida-ar];
+@before_noon = [@hah @seen @ain feh-ar.init feh-ar.medi];
 lookup before_noon {
 	sub @before_noon		by @before_noon _c.hah.noon;
+	sub kashida-ar			by kashida-ar _c.kashida.noon;
 } before_noon;
 
 @before_yeh = [@hah @ain kashida-ar];
@@ -950,7 +951,7 @@ lookup rclt_connection {
 		 waw-ar.fina
 	;
 
-	sub	 @before_noon' lookup before_noon
+	sub	[@before_noon kashida-ar]' lookup before_noon
 		 noon-ar.fina
 	;
 

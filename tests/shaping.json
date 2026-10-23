@@ -11712,6 +11712,38 @@
     },
     {
       "only": "Atiq.ttf",
+      "input": "يـن",
+      "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـن",
+      "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+133|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 10.5
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـن",
+      "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+166|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 11
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـن",
+      "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+6000|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "Atiq.ttf",
       "input": "ء",
       "expectation": "hamza-ar=0+0"
     },
@@ -22819,6 +22851,21 @@
       "only": "Atiq.ttf",
       "input": "باثم",
       "expectation": "meem-ar.fina=3+681|threedotsupabove-ar=2@-117,354+0|beh-ar.init=2@-30,0+89|alef-ar.fina=1@20,0+117|dotbelow-ar=0@80,-71+0|_c.seen.beh=0+20|beh-ar.init=0@-20,0+99",
+      "variations": {
+        "SPAC": -100.0,
+        "MSHQ": 10.0,
+        "MSH2": 10.0
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـن",
+      "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119"
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـن",
+      "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
       "variations": {
         "SPAC": -100.0,
         "MSHQ": 10.0,
