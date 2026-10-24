@@ -1528,7 +1528,9 @@ m01 = {
 _c.seen.beh = -10;
 };
 "@MMK_R_beh.init" = {
+"@MMK_L_yeh" = -20;
 "@MMK_L_yeh.wide" = -20;
+"@MMK_L_yehbarree" = -20;
 _c.seen.beh = -20;
 };
 "@MMK_R_dal.fina" = {
