@@ -1,5 +1,5 @@
 {
-.appVersion = "3535";
+.appVersion = "3536";
 .formatVersion = 3;
 axes = (
 {
@@ -492,7 +492,7 @@ code = "lookup rclt_vertical_dots {
 
 	sub [beh-ar.init beh-ar.medi]
 		[twodotsverticalabove-ar threedotsupabove-ar]'
-		[alef-ar.fina lam-ar.medi lam-ar.fina
+		[alef-ar.fina beh-ar.medi lam-ar.medi lam-ar.fina
 		 heh-ar.fina heh-ar.medi heh-ar.medi.round]
 	by	[twodotsverticalabove-ar.vert threedotsupabove-ar.vert]
 	;
