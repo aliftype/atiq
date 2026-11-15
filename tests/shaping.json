@@ -1,4 +1,9 @@
 {
+  "harfbuzz": "15.0.0",
+  "uharfbuzz": "0.57.0",
+  "fonts": {
+    "Atiq.ttf": "0599891ce1cd1f59a0b0e4569ee15ae90c82f653"
+  },
   "tests": [
     {
       "only": "Atiq.ttf",
