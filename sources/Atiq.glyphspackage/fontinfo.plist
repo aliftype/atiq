@@ -17,7 +17,7 @@ tag = MSH2;
 );
 classes = (
 {
-code = "$[name ENDSWITH '-ar.isol']
+code = "$[name LIKE '*.isol*' && ! name BEGINSWITH '_']
 
 period
 threedots-ar
@@ -693,7 +693,7 @@ lookup ss01_cleanup {
 } ss01_cleanup;
 
 lookup salt_yeh {
-	sub yeh-ar.isol			from [yeh-ar.salt yehbarree-ar.isol];
+	sub yeh-ar.isol			from [yeh-ar.isol.salt yehbarree-ar.isol];
 	sub yeh-ar.fina			from [yeh-ar.fina.salt yehbarree-ar.fina];
 	sub yeh-ar.fina.wide	from [yeh-ar.fina.wide.salt yehbarree-ar.fina];
 } salt_yeh;
@@ -1519,7 +1519,7 @@ m01 = {
 "@MMK_R_alef.fina" = {
 "qaf-ar.isol" = -90;
 "yeh-ar.isol" = -40;
-"yeh-ar.salt" = 4;
+"yeh-ar.isol.salt" = 4;
 };
 "@MMK_R_beh" = {
 "@MMK_L_yeh" = -20;
@@ -1707,7 +1707,7 @@ _c.ain.meem = 30;
 "qaf-ar.isol" = -80;
 "waw-ar.isol" = -15;
 "yeh-ar.isol" = -32;
-"yeh-ar.salt" = -26;
+"yeh-ar.isol.salt" = -26;
 };
 "beh-ar.init" = {
 "@MMK_L_sad" = -21;
@@ -1735,7 +1735,7 @@ _c.ain.meem = 30;
 "qaf-ar.isol" = -70;
 "waw-ar.isol" = -11;
 "yeh-ar.isol" = -32;
-"yeh-ar.salt" = -27;
+"yeh-ar.isol.salt" = -27;
 };
 "feh-ar.fina" = {
 "@MMK_L_beh.init" = -15;
@@ -1826,7 +1826,6 @@ _c.ain.yeh = -20;
 "qaf-ar.isol" = -10;
 "reh-ar.isol" = -60;
 "waw-ar.isol" = -100;
-"yeh-ar.salt" = -25;
 };
 "reh-ar.isol" = {
 "@MMK_L_beh.init" = -50;
@@ -1845,7 +1844,7 @@ _c.ain.yeh = -20;
 "qaf-ar.isol" = -30;
 "waw-ar.isol" = -40;
 "yeh-ar.isol" = -20;
-"yeh-ar.salt" = -22;
+"yeh-ar.isol.salt" = -22;
 };
 "seen_yeh-ar.fina" = {
 "alef-ar.isol" = 17;
@@ -1882,7 +1881,7 @@ _c.ain.yeh = -20;
 "qaf-ar.isol" = -50;
 "waw-ar.isol" = -15;
 "yeh-ar.isol" = -25;
-"yeh-ar.salt" = -26;
+"yeh-ar.isol.salt" = -26;
 "yehbarree-ar.isol" = -80;
 };
 "yeh-ar.fina" = {
