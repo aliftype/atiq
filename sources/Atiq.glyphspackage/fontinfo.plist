@@ -879,7 +879,7 @@ lookup before_reh {
 	sub @hah				by @hah _c.hah.reh;
 	sub @ain				by @ain [_c.hah.reh _c.ain.medi.reh];
 	sub feh-ar.medi			by feh-ar.medi _c.feh.medi.reh;
-	sub kashida-ar			by kashida-ar _c.hah.reh;
+	sub kashida-ar			by kashida-ar _c.kashida.reh;
 } before_reh;
 
 lookup before_meem {

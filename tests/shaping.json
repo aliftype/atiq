@@ -2,7 +2,7 @@
   "harfbuzz": "15.0.0",
   "uharfbuzz": "0.57.0",
   "fonts": {
-    "Atiq.ttf": "cad4669bac3be505b80a286dc3175f70ada7db83"
+    "Atiq.ttf": "32142e375eb1029b4bc893309a664882db919507"
   },
   "tests": [
     {
@@ -11725,8 +11725,24 @@
     },
     {
       "only": "Atiq.ttf",
+      "input": "يـر",
+      "expectation": "reh-ar.fina=2+395|_c.kashida.reh=1+0|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 0
+      }
+    },
+    {
+      "only": "Atiq.ttf",
       "input": "يـن",
       "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+133|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 10.5
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـر",
+      "expectation": "reh-ar.fina=2+395|_c.kashida.reh=1+0|kashida-ar=1+133|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
       "variations": {
         "MSHQ": 10.5
       }
@@ -11741,8 +11757,24 @@
     },
     {
       "only": "Atiq.ttf",
+      "input": "يـر",
+      "expectation": "reh-ar.fina=2+395|_c.kashida.reh=1+0|kashida-ar=1+166|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 11
+      }
+    },
+    {
+      "only": "Atiq.ttf",
       "input": "يـن",
       "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+6000|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "MSHQ": 100
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـر",
+      "expectation": "reh-ar.fina=2+395|_c.kashida.reh=1+0|kashida-ar=1+6000|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
       "variations": {
         "MSHQ": 100
       }
@@ -22871,6 +22903,21 @@
       "only": "Atiq.ttf",
       "input": "يـن",
       "expectation": "dotabove-ar=2@-40,116+0|noon-ar.fina=2+274|_c.kashida.noon=1@5,0+-4|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
+      "variations": {
+        "SPAC": -100.0,
+        "MSHQ": 10.0,
+        "MSH2": 10.0
+      }
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـر",
+      "expectation": "reh-ar.fina=2+395|_c.kashida.reh=1+0|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119"
+    },
+    {
+      "only": "Atiq.ttf",
+      "input": "يـر",
+      "expectation": "reh-ar.fina=2+395|_c.kashida.reh=1+0|kashida-ar=1+100|twodotsverticalbelow-ar=0@90,-92+0|beh-ar.init=0+119",
       "variations": {
         "SPAC": -100.0,
         "MSHQ": 10.0,

@@ -1,0 +1,82 @@
+{
+category = Mark;
+direction = RTL;
+glyphname = _c.kashida.reh;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,83,l),
+(173,103,l),
+(57,108,o),
+(15,111,o),
+(-42,171,c),
+(-53,171,l),
+(-53,0,l)
+);
+}
+);
+width = 185;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+11,
+10
+);
+};
+layerId = "16436F98-4EA3-4271-8EAE-BA3172F0FD48";
+name = "17 Nov 26 at 20:24";
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,70,l),
+(173,89,l),
+(57,89,o),
+(15,111,o),
+(-42,171,c),
+(-53,171,l),
+(-53,0,l)
+);
+}
+);
+width = 185;
+},
+{
+associatedMasterId = m01;
+attr = {
+coordinates = (
+0,
+100,
+10
+);
+};
+layerId = "DBBE7434-4695-496A-8DF2-BD5FBBE54608";
+name = "17 Nov 26 at 20:24";
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,70,l),
+(173,89,l),
+(57,89,o),
+(15,111,o),
+(-42,171,c),
+(-53,171,l),
+(-53,0,l)
+);
+}
+);
+width = 185;
+}
+);
+metricRight = "=0";
+script = arabic;
+subCategory = Nonspacing;
+}

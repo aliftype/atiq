@@ -779,21 +779,25 @@ input:
     MSHQ: 0
   text:
   - يـن
+  - يـر
 
 - variations:
     MSHQ: 10.5
   text:
   - يـن
+  - يـر
 
 - variations:
     MSHQ: 11
   text:
   - يـن
+  - يـر
 
 - variations:
     MSHQ: 100
   text:
   - يـن
+  - يـر
 
 - text:
   - ء
@@ -1538,3 +1542,4 @@ input:
   - اثم
   - باثم
   - يـن
+  - يـر
